@@ -107,7 +107,7 @@ export const comoLlegar = {
     titulo: 'Running late, or missed the bus?',
     texto:
       'Entry to the trail closes at 15:00. You can sleep near the trailhead and head up early the next day: La Frontera, Camping El Laurel and Camping Los Pozones are all in that sector.',
-    cta: { label: 'See where to stay', href: `${PORTADA}/como-visitar#dormir` },
+    cta: { label: 'See where to stay', href: `${PORTADA}/como-visitar#dormir-inicio-sendero` },
   },
   bus: {
     titulo: 'By bus',

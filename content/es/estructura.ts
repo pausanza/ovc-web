@@ -108,7 +108,7 @@ export const comoLlegar = {
     titulo: '¿Llegas tarde o perdiste el bus?',
     texto:
       'El ingreso al sendero cierra a las 15:00. Puedes dormir cerca del inicio del sendero y subir temprano al día siguiente: en ese sector están La Frontera, Camping El Laurel y Camping Los Pozones.',
-    cta: { label: 'Ver dónde dormir', href: `${PORTADA}/como-visitar#dormir` },
+    cta: { label: 'Ver dónde dormir', href: `${PORTADA}/como-visitar#dormir-inicio-sendero` },
   },
   bus: {
     titulo: 'En bus',
