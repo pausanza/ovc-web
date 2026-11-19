@@ -667,7 +667,7 @@ export const conservacionPagina: PaginaLarga = {
     alt: 'Vecinos del valle marchando sobre el puente de Cochamó con lienzos por la protección del territorio',
   },
   intro: [
-    'La defensa del Valle Cochamó no empezó con el turismo. Empezó con un río que alguien quiso represar. Desde entonces, cada vez que apareció una amenaza nueva, la comunidad se organizó y respondió.',
+    'La defensa del Valle Cochamó no empezó con el turismo. Empezó mucho antes y cada vez que apareció una amenaza nueva, la comunidad se organizó y respondió.',
   ],
   bloques: [
     {

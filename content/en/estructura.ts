@@ -648,7 +648,7 @@ export const conservacionPagina: PaginaLarga = {
     alt: 'Valley residents marching across the Cochamó bridge with banners calling for protection',
   },
   intro: [
-    'The defence of the Cochamó Valley did not begin with tourism. It began with a river someone wanted to dam. Since then, every time a new threat has appeared, the community has organised and responded.',
+    'The defence of the Cochamó Valley did not begin with tourism. It began long before, and every time a new threat appeared, the community organised and responded.',
   ],
   bloques: [
     {
