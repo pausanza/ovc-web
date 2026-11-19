@@ -1274,12 +1274,13 @@ p { text-wrap: pretty; }
   transition: border-color var(--trans), box-shadow var(--trans);
 }
 .alojamiento:hover { border-color: var(--bosque-300); box-shadow: var(--sombra-sm); }
+/* La etiqueta (Camping, Hostal…) va siempre bajo el nombre: al lado solo
+   cabía en los nombres cortos y las tarjetas quedaban disparejas. */
 .alojamiento__cabecera {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 14px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 .alojamiento__cabecera h3 { font-size: 1.25rem; }
 .alojamiento__tipo {
