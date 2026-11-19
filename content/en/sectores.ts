@@ -34,14 +34,13 @@ export const sectoresDetalle: SectorDetalle[] = [
         descripcion:
           'On the bank of the Cochamó river, surrounded by native forest, 8 km from the village and 500 metres from the start of the trail. Three ways to stay in the same place: rooms with a Patagonian breakfast, camping pitches, and a small cabin in the forest where you bring your sleeping bag and they provide the firewood.',
         servicios: [
-          'Rooms with private or shared bathroom',
+          'Rooms with private bathroom',
           'Camping pitches',
           'Cabin with firewood included',
           'Hot shower',
           'River access',
           'Free parking',
           'Bike hire',
-          'Spanish, English and Czech',
         ],
         contactos: [
           { tipo: 'whatsapp', valor: '+56 9 8554 9033', href: 'https://wa.me/56985549033' },
