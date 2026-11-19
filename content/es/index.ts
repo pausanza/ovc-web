@@ -133,6 +133,8 @@ export const contenido: Contenido = {
       items: [
         { label: 'Cómo llegar', href: `${PORTADA}/como-visitar#como-llegar`, detalle: 'En auto o en bus' },
         { label: 'Dónde dormir', href: `${PORTADA}/como-visitar#dormir`, detalle: 'Los alojamientos del valle' },
+        { label: 'Inicio del sendero', href: `${PORTADA}/sectores/inicio-sendero`, detalle: 'Centro de Visitantes y alojamientos' },
+        { label: 'Sector La Junta', href: `${PORTADA}/sectores/la-junta`, detalle: 'El corazón del valle, a 13 km' },
         { label: 'Cuánto cuesta', href: `${PORTADA}/como-visitar#cuanto-cuesta`, detalle: 'Qué se paga y a quién' },
         { label: 'Día vs. varios días', href: `${PORTADA}/como-visitar#dia-vs-semana`, detalle: 'Dos viajes distintos' },
         { label: 'Qué debo saber', href: `${PORTADA}/como-visitar#normas`, detalle: 'Normas y seguridad' },

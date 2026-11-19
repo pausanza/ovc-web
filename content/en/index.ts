@@ -142,6 +142,8 @@ export const contenido: Contenido = {
       items: [
         { label: 'Getting here', href: `${PORTADA}/como-visitar#como-llegar`, detalle: 'By car or by bus' },
         { label: 'Where to stay', href: `${PORTADA}/como-visitar#dormir`, detalle: 'Places to sleep in the valley' },
+        { label: 'Trailhead', href: `${PORTADA}/sectores/inicio-sendero`, detalle: 'Visitor Centre and places to stay' },
+        { label: 'La Junta sector', href: `${PORTADA}/sectores/la-junta`, detalle: 'The heart of the valley, 13 km in' },
         { label: 'What it costs', href: `${PORTADA}/como-visitar#cuanto-cuesta`, detalle: 'What you pay and to whom' },
         { label: 'Day trip vs. several days', href: `${PORTADA}/como-visitar#dia-vs-semana`, detalle: 'Two different trips' },
         { label: 'What to know', href: `${PORTADA}/como-visitar#normas`, detalle: 'Rules and safety' },
