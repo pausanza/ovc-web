@@ -423,7 +423,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403194,
       lon: -72.119583,
-      descripcion: 'A south-facing valley with short walls, north of the La Junta river.',
+      descripcion: 'A south-facing valley with short walls, north of the La Junta river. One of the most beautiful trails, with a stunning view of Cerro Trinidad and the Anfiteatro.',
     },
     {
       id: 'puerto-varas',

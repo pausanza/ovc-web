@@ -1079,10 +1079,17 @@ p { text-wrap: pretty; }
 .marcador--referencia .marcador__nombre {
   font-weight: 500;
   color: var(--granito-700);
+}
+/* Los nombres de referencias y alojamientos solo aparecen al pasar el cursor:
+   fijos, se montaban unos sobre otros y tapaban los demás puntos. */
+.marcador--referencia .marcador__nombre,
+.marcador--camping .marcador__nombre {
   opacity: 0;
+  pointer-events: none;
   transition: opacity var(--trans);
 }
-.marcador--referencia:hover .marcador__nombre { opacity: 1; }
+.marcador--referencia:hover .marcador__nombre,
+.marcador--camping:hover .marcador__nombre { opacity: 1; }
 
 .mapa__panel { display: grid; gap: 16px; }
 /* Una fila de nombres, no cajas: la descripción de cada punto vive en su

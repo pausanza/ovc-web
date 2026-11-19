@@ -415,7 +415,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403194,
       lon: -72.119583,
-      descripcion: 'Valle cara sur, con paredes cortas, al norte del río La Junta.',
+      descripcion: 'Valle cara sur, con paredes cortas, al norte del río La Junta. Uno de los senderos más hermosos, con una vista imponente al cerro Trinidad y al Anfiteatro.',
     },
     {
       id: 'puerto-varas',
