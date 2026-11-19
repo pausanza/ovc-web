@@ -465,7 +465,7 @@ export const contenido: Contenido = {
     eyebrow: 'Antes de ir',
     titulo: 'Saber antes de salir',
     bajada:
-      'No hay rescatistas ni servicios de emergencia en el valle. Lo que lleves y lo que sepas es toda la seguridad con la que cuentas.',
+      'En el valle no hay rescatistas ni servicios de emergencia. Tu seguridad depende de tu preparación, tu equipo y tus decisiones.',
   },
 
   fichasPlanificacion: [

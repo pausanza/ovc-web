@@ -112,7 +112,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     ],
     avisos: [
       'The Toboganes waterfalls are nearby and are for admiring only. Sliding down them is strictly prohibited: most of the serious accidents in the valley happen there.',
-      'There are no rescue teams and no emergency services. What you carry and what you know is all the safety you have.',
+      'There are no rescue teams and no emergency services in the valley. Your safety depends on your preparation, your gear and your decisions.',
     ],
     alojamientos: [
       {

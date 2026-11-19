@@ -473,7 +473,7 @@ export const contenido: Contenido = {
     eyebrow: 'Before you go',
     titulo: 'Know before you set out',
     bajada:
-      'There are no rescue teams and no emergency services in the valley. What you carry and what you know is all the safety you have.',
+      'There are no rescue teams and no emergency services in the valley. Your safety depends on your preparation, your gear and your decisions.',
   },
 
   fichasPlanificacion: [

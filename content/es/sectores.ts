@@ -119,7 +119,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     ],
     avisos: [
       'Las cascadas de los Toboganes están cerca y son para contemplar. Está estrictamente prohibido deslizarse por ellas: la mayoría de los accidentes graves del valle ocurren allí.',
-      'No hay rescatistas ni servicios de emergencia. Lo que lleves y lo que sepas es toda la seguridad con la que cuentas.',
+      'En el valle no hay rescatistas ni servicios de emergencia. Tu seguridad depende de tu preparación, tu equipo y tus decisiones.',
     ],
     alojamientos: [
       {
