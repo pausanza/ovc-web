@@ -399,7 +399,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.426866,
       lon: -72.096488,
-      descripcion: 'The granite wall towering over La Junta, one of the valley’s landmarks.',
+      descripcion: 'An iconic granite formation of the Cochamó Valley, where the first climbing routes were opened.',
     },
     {
       id: 'toboganes',
@@ -415,15 +415,15 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403911,
       lon: -72.159243,
-      descripcion: 'A granite wall north-west of the valley, one of the classic climbing sectors.',
+      descripcion: 'A sheer granite wall north-west of the valley, with long and demanding climbing routes.',
     },
     {
       id: 'la-paloma',
-      nombre: 'La Paloma',
+      nombre: 'Valle La Paloma',
       tipo: 'referencia',
       lat: -41.403194,
       lon: -72.119583,
-      descripcion: 'A sector of walls north of the La Junta river, with an open view over the valley.',
+      descripcion: 'A south-facing valley with short walls, north of the La Junta river.',
     },
     {
       id: 'puerto-varas',

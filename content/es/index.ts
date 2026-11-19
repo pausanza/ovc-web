@@ -391,7 +391,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.426866,
       lon: -72.096488,
-      descripcion: 'La pared de granito que domina La Junta, uno de los hitos del valle.',
+      descripcion: 'Una formación de granito icónica del valle Cochamó. Donde se abrieron las primeras rutas de escalada.',
     },
     {
       id: 'toboganes',
@@ -407,15 +407,15 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403911,
       lon: -72.159243,
-      descripcion: 'Pared de granito al noroeste del valle, uno de los sectores clásicos de escalada.',
+      descripcion: 'Pared de granito super vertical al noroeste del valle con rutas de escalada largas y exigentes.',
     },
     {
       id: 'la-paloma',
-      nombre: 'La Paloma',
+      nombre: 'Valle La Paloma',
       tipo: 'referencia',
       lat: -41.403194,
       lon: -72.119583,
-      descripcion: 'Sector de paredes al norte del río La Junta, con vista abierta sobre el valle.',
+      descripcion: 'Valle cara sur, con paredes cortas, al norte del río La Junta.',
     },
     {
       id: 'puerto-varas',
