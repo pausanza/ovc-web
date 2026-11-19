@@ -145,8 +145,8 @@ export const cuantoCuesta = {
     'There is no single entrance fee for the valley. Each place to stay and each service is charged directly by whoever provides it, which in almost every case is a family from the valley.',
   costos: [
     {
-      concepto: 'Entry',
-      etiqueta: 'Suggested contribution',
+      concepto: 'Suggested contribution',
+      etiqueta: 'No entrance fee',
       valor: 'CLP 4,000',
       detalle: 'It goes straight into looking after the valley. If you come for the day you do not need a booking; to stay the night, you do.',
     },

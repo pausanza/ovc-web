@@ -146,8 +146,8 @@ export const cuantoCuesta = {
     'No hay una entrada única al valle. Cada alojamiento y cada servicio los cobra directamente quien los presta, que en casi todos los casos es una familia del valle.',
   costos: [
     {
-      concepto: 'Entrada',
-      etiqueta: 'Aporte sugerido',
+      concepto: 'Aporte sugerido',
+      etiqueta: 'No hay entrada',
       valor: '$4.000',
       detalle: 'Va directo al cuidado del valle. Si vas por el día no necesitas reserva; para pasar la noche, sí.',
     },
