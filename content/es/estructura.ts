@@ -674,7 +674,7 @@ export const conservacionPagina: PaginaLarga = {
       titulo: 'Más de quince años defendiendo el mismo lugar',
       parrafos: [
         '**2009:** Nace Conservación Cochamó para frenar un proyecto hidroeléctrico que pretendía explotar el río Cochamó y sus afluentes. Junto a la comunidad local se consigue un decreto presidencial que deja en reserva las aguas de la cuenca.',
-        '**2017:** Nace la Organización Valle Cochamó, hoy Corporación Valle Cochamó, para impulsar un turismo de mínimo impacto y la creación de un área protegida.',
+        '**2017:** Desde la propia comunidad local nace la Organización Valle Cochamó, hoy Corporación Valle Cochamó. De un año para otro, el turismo creció sin control y empezó a poner en riesgo el valle: había basura, fogatas y demasiada gente, y los campings no daban abasto. Sabemos que Cochamó es uno de los lugares más hermosos del mundo y queremos compartirlo. Por eso decidimos, como comunidad, seguir abiertos al turismo, pero a un turismo respetuoso y de mínimo impacto, y comenzamos a impulsar la creación de un área protegida. Entendemos que la naturaleza estaba aquí antes que todos nosotros.',
         '**2023:** A petición de la comunidad organizada, el Estado declara el Santuario de la Naturaleza Valle Cochamó, con más de 11.400 hectáreas protegidas.',
         '**Hoy:** Las amenazas no se han ido. Siguen apareciendo proyectos inmobiliarios e hidroeléctricos, y la protección del valle se sigue defendiendo todos los días.',
       ],

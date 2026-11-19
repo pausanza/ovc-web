@@ -655,7 +655,7 @@ export const conservacionPagina: PaginaLarga = {
       titulo: 'More than fifteen years defending the same place',
       parrafos: [
         '**2009:** Conservación Cochamó is founded to stop a hydroelectric project that sought to exploit the Cochamó River and its tributaries. Together with the local community, a presidential decree is secured that places the waters of the basin in reserve.',
-        '**2017:** Organización Valle Cochamó, today Corporación Valle Cochamó, is founded to promote minimum-impact tourism and the creation of a protected area.',
+        '**2017:** Organización Valle Cochamó, today Corporación Valle Cochamó, is born from within the local community itself. Almost overnight, tourism grew out of control and began to put the valley at risk: there was litter, campfires and far too many people, and the campsites could not cope. We know Cochamó is one of the most beautiful places in the world and we want to share it. So, as a community, we decided to stay open to tourism, but to respectful, minimum-impact tourism, and we began pushing for the creation of a protected area. We understand that nature was here before all of us.',
         '**2023:** At the request of the organised community, the State declares the Valle Cochamó Nature Sanctuary, protecting more than 11,400 hectares.',
         '**Today:** The threats have not gone away. Real estate and hydroelectric projects keep appearing, and the valley’s protection is still defended every day.',
       ],
