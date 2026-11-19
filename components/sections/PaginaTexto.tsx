@@ -2,6 +2,11 @@ import { Boton } from '@/components/ui/Boton'
 import { Icon } from '@/components/ui/Icon'
 import type { PaginaLarga } from '@/content'
 
+/** Pasa a negrita lo que va entre **dobles asteriscos**, como «**2009:**». */
+function conNegritas(texto: string) {
+  return texto.split(/\*\*(.+?)\*\*/g).map((trozo, i) => (i % 2 === 1 ? <strong key={i}>{trozo}</strong> : trozo))
+}
+
 /**
  * El cuerpo de una página larga de texto.
  *
@@ -36,7 +41,7 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
               <h2>{bloque.titulo}</h2>
 
               {bloque.parrafos?.map((parrafo) => (
-                <p key={parrafo}>{parrafo}</p>
+                <p key={parrafo}>{conNegritas(parrafo)}</p>
               ))}
 
               {bloque.lista && (
@@ -44,7 +49,7 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
                   {bloque.lista.map((item) => (
                     <li key={item}>
                       <Icon name="check" />
-                      {item}
+                      <span>{conNegritas(item)}</span>
                     </li>
                   ))}
                 </ul>
@@ -59,7 +64,7 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
                         {grupo.items.map((item) => (
                           <li key={item}>
                             <Icon name="check" />
-                            {item}
+                            <span>{conNegritas(item)}</span>
                           </li>
                         ))}
                       </ul>

@@ -641,44 +641,53 @@ export const santuarioPagina: PaginaLarga = {
 
 export const conservacionPagina: PaginaLarga = {
   eyebrow: 'Conservation',
-  titulo: 'A call that comes from the depths of nature',
-  bajada: 'For future generations',
+  titulo: 'A valley its community chose to protect',
+  bajada: 'For those who will come after us',
   foto: {
     imagen: 'marcha',
     alt: 'Valley residents marching across the Cochamó bridge with banners calling for protection',
   },
   intro: [
-    'The defence of the Cochamó Valley did not begin with tourism. It began with a river somebody wanted to dam, and it has carried on with every project that has appeared since.',
+    'The defence of the Cochamó Valley did not begin with tourism. It began with a river someone wanted to dam. Since then, every time a new threat has appeared, the community has organised and responded.',
   ],
   bloques: [
     {
-      titulo: 'Fifteen years defending the same place',
+      titulo: 'More than fifteen years defending the same place',
       parrafos: [
-        'In 2009 Conservación Cochamó was born to face a hydroelectric project that intended to exploit the Cochamó river and its tributaries. Together with the local community, a presidential decree was won creating a reserve for the river basin.',
-        'The threats did not go away: property and hydroelectric projects keep appearing. In 2017 the Organización Valle Cochamó was created to push for responsible tourism and a protected area, and in the United States Friends of Cochamó was formed to support the work from abroad.',
+        '**2009:** Conservación Cochamó is founded to stop a hydroelectric project that sought to exploit the Cochamó River and its tributaries. Together with the local community, a presidential decree is secured that places the waters of the basin in reserve.',
+        '**2017:** Organización Valle Cochamó, today Corporación Valle Cochamó, is founded to promote minimum-impact tourism and the creation of a protected area.',
+        '**2023:** At the request of the organised community, the State declares the Valle Cochamó Nature Sanctuary, protecting more than 11,400 hectares.',
+        '**Today:** The threats have not gone away. Real estate and hydroelectric projects keep appearing, and the valley’s protection is still defended every day.',
       ],
     },
     {
       titulo: 'What is at stake',
       lista: [
-        'Some 8,000 hectares of alerce stands, with specimens around a thousand years old.',
-        'Darwin’s frog, a threatened amphibian whose males brood their young in their vocal sac.',
-        'Patagonian vizcachas and pumas, which need large, connected territories.',
-        'The granite walls of the North Patagonian Batholith, up to a thousand metres high.',
+        '**Ancient alerce trees:** around 1,800 hectares of alerce forest and 6,500 of mature forest, with trees that were here long before us.',
+        '**Darwin’s frog:** a threatened amphibian whose male raises the tadpoles inside his vocal sac.',
+        '**Pumas and Patagonian vizcachas:** they need large, connected territories to survive.',
+        '**The granite of the North Patagonian Batholith:** walls up to a thousand metres high that make Cochamó unique in the world.',
       ],
     },
     {
-      titulo: 'The people who live off the trail',
+      titulo: 'Those who live from the trail',
       parrafos: [
-        'There are arriero families who have travelled this trail with their horses for generations: the grandparents did it, the children do it and the grandchildren are doing it still. It is not a tourist attraction, it is a trade.',
-        'That trade depends on the trail staying a trail. It is what lies behind every decision the organisation makes about access to the valley.',
+        'There are arriero families who have travelled this trail on horseback for generations. The grandparents did it, the children do it, and the grandchildren are already learning. It is not a show for tourists: it is a trade and a way of life.',
+        'That trade exists as long as the trail remains a trail. That is why the arriero families stand behind every decision the corporation makes about access to the valley.',
+      ],
+    },
+    {
+      titulo: 'A community that chooses to care',
+      parrafos: [
+        'The corporation is made up of landowners in the valley, tourism workers and friends of the Cochamó Valley. Everyone takes part out of commitment and love for this place, not for a salary. Every donation we receive goes to the valley: to running the Visitor Centre and its team, trail maintenance, recycling and student projects, among others. The owners of the La Junta campsites, for example, could take in many more visitors and choose not to: they limit their capacity on purpose because they know the valley has a limit.',
+        'That is the tourism the people here want to build: responsible and sustainable, conserving the valley so that future generations can know it as we did.',
       ],
     },
   ],
   cierre: {
-    titulo: 'Help us conserve the valley',
+    titulo: 'Help us care for the valley',
     texto:
-      'Donations sustain the trails, the Visitor Centre and the long-term conservation programmes. There is no public budget behind any of it.',
+      'None of this has public funding behind it. It is sustained by donations and volunteer work, and every contribution stays in the valley.',
     cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
   },
 }

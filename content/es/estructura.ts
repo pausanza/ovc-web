@@ -660,44 +660,53 @@ export const santuarioPagina: PaginaLarga = {
 
 export const conservacionPagina: PaginaLarga = {
   eyebrow: 'Conservación',
-  titulo: 'Un llamado que nace de las profundidades de la naturaleza',
-  bajada: 'Para futuras generaciones',
+  titulo: 'Un valle que su comunidad decidió proteger',
+  bajada: 'Para quienes vendrán después de nosotros',
   foto: {
     imagen: 'marcha',
     alt: 'Vecinos del valle marchando sobre el puente de Cochamó con lienzos por la protección del territorio',
   },
   intro: [
-    'La defensa del Valle Cochamó no empezó con el turismo. Empezó con un río que alguien quiso represar, y ha seguido con cada proyecto que apareció después.',
+    'La defensa del Valle Cochamó no empezó con el turismo. Empezó con un río que alguien quiso represar. Desde entonces, cada vez que apareció una amenaza nueva, la comunidad se organizó y respondió.',
   ],
   bloques: [
     {
-      titulo: 'Quince años defendiendo el mismo lugar',
+      titulo: 'Más de quince años defendiendo el mismo lugar',
       parrafos: [
-        'En 2009 nació Conservación Cochamó para enfrentar un proyecto hidroeléctrico que pretendía explotar el río Cochamó y sus afluentes. Junto a la comunidad local se consiguió un decreto presidencial que creó una reserva para la cuenca del río.',
-        'Las amenazas no se fueron: los proyectos inmobiliarios e hidroeléctricos siguen apareciendo. En 2017 se creó la Organización Valle Cochamó para impulsar un turismo responsable y un área protegida, y en Estados Unidos se formó Friends of Cochamó para apoyar desde afuera.',
+        '**2009:** Nace Conservación Cochamó para frenar un proyecto hidroeléctrico que pretendía explotar el río Cochamó y sus afluentes. Junto a la comunidad local se consigue un decreto presidencial que deja en reserva las aguas de la cuenca.',
+        '**2017:** Nace la Organización Valle Cochamó, hoy Corporación Valle Cochamó, para impulsar un turismo de mínimo impacto y la creación de un área protegida.',
+        '**2023:** A petición de la comunidad organizada, el Estado declara el Santuario de la Naturaleza Valle Cochamó, con más de 11.400 hectáreas protegidas.',
+        '**Hoy:** Las amenazas no se han ido. Siguen apareciendo proyectos inmobiliarios e hidroeléctricos, y la protección del valle se sigue defendiendo todos los días.',
       ],
     },
     {
       titulo: 'Lo que hay en juego',
       lista: [
-        'Cerca de 8.000 hectáreas de alerzales, con ejemplares de unos mil años.',
-        'La ranita de Darwin, un anfibio amenazado que incuba sus crías en el saco vocal del macho.',
-        'Vizcachas patagónicas y pumas, que necesitan territorios extensos y conectados.',
-        'Las paredes de granito del Batolito Norpatagónico, de hasta mil metros.',
+        '**Alerces milenarios:** cerca de 1.800 hectáreas de alerzales y 6.500 de bosque maduro, con árboles que estaban aquí mucho antes que nosotros.',
+        '**La ranita de Darwin:** un anfibio amenazado cuyo macho cría a los renacuajos dentro de su saco vocal.',
+        '**Pumas y vizcachas patagónicas:** necesitan territorios extensos y conectados para sobrevivir.',
+        '**El granito del Batolito Norpatagónico:** paredes de hasta mil metros que hacen de Cochamó un lugar único en el mundo.',
       ],
     },
     {
       titulo: 'Quienes viven del sendero',
       parrafos: [
-        'Hay familias de arrieros que llevan generaciones recorriendo esta senda con sus caballos: lo hicieron los abuelos, lo hacen los hijos y lo siguen haciendo los nietos. No es una atracción turística, es un oficio.',
-        'Ese oficio depende de que el sendero siga siendo un sendero. Es lo que está detrás de cada decisión que la corporación toma sobre el acceso al valle.',
+        'Hay familias arrieras que recorren esta senda a caballo desde hace generaciones. Lo hicieron los abuelos, lo hacen los hijos y ya lo aprenden los nietos. No es un espectáculo para turistas: es un oficio y una forma de vida.',
+        'Ese oficio existe mientras el sendero siga siendo un sendero. Por eso las familias arrieras están detrás de cada decisión que la corporación toma sobre el acceso al valle.',
+      ],
+    },
+    {
+      titulo: 'Una comunidad que elige cuidar',
+      parrafos: [
+        'La corporación la forman dueños de terrenos en el valle, trabajadores del turismo y amigos del Valle Cochamó. Todos participan por compromiso y amor a este lugar, no por un sueldo. Todas las donaciones que recibimos se destinan al valle: al funcionamiento del Centro de Visitantes y su equipo, a la mantención de senderos, al reciclaje y a proyectos estudiantiles, entre otros. Los dueños de los campings de La Junta, por ejemplo, podrían recibir a muchos más visitantes y deciden no hacerlo: limitan su capacidad a propósito porque saben que el valle tiene un límite.',
+        'Ese es el turismo que la gente de aquí quiere desarrollar: responsable y sostenible, que conserve el valle para que las próximas generaciones lo conozcan tal como lo conocimos nosotros.',
       ],
     },
   ],
   cierre: {
-    titulo: 'Ayúdanos a conservar el valle',
+    titulo: 'Ayúdanos a cuidar el valle',
     texto:
-      'Las donaciones sostienen los senderos, el Centro de Visitantes y los programas de conservación de largo plazo. No hay presupuesto público detrás de nada de eso.',
+      'Nada de esto tiene presupuesto público detrás. Se sostiene con donaciones y trabajo voluntario, y cada aporte se queda en el valle.',
     cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
   },
 }
