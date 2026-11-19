@@ -630,9 +630,9 @@ export const santuarioPagina: PaginaLarga = {
     },
   ],
   cierre: {
-    titulo: 'We need your help',
+    titulo: 'Thank you for being part of it',
     texto:
-      'A declared sanctuary does not run itself. Maintaining the trails, the Visitor Centre and the conservation programmes takes work and money, and there is no public budget behind it.',
+      'If this valley has given you something, you can give a little back. The trails, the Visitor Centre and conservation are sustained by donations and volunteer work. Every contribution stays here, in the valley.',
     cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
   },
 }

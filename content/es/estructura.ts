@@ -649,9 +649,9 @@ export const santuarioPagina: PaginaLarga = {
     },
   ],
   cierre: {
-    titulo: 'Necesitamos tu aporte',
+    titulo: 'Gracias por ser parte',
     texto:
-      'El santuario declarado no se administra solo. Mantener los senderos, el Centro de Visitantes y los programas de conservación cuesta trabajo y plata, y no hay presupuesto público detrás.',
+      'Si este valle te ha regalado algo, puedes devolverle un poco. Los senderos, el Centro de Visitantes y la conservación se sostienen con donaciones y trabajo voluntario. Cada aporte se queda aquí, en el valle.',
     cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
   },
 }
