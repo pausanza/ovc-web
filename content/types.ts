@@ -528,7 +528,8 @@ export interface Contenido {
   dondeDormir: Encabezado & {
     /** Botón bajo la bajada, para ir a los horarios antes de elegir dónde dormir. */
     enlace?: Enlace
-    bloques: { slug: string; titulo?: string; texto?: string; enlace?: Enlace; foto?: Foto }[]
+    /** `atajo` es el nombre corto del botón que salta a ese bloque. */
+    bloques: { slug: string; atajo: string; titulo?: string; texto?: string; enlace?: Enlace; foto?: Foto }[]
   }
   comoAyudarPagina: Encabezado & {
     intro: string

@@ -2642,6 +2642,9 @@ p { text-wrap: pretty; }
 .marcador--izq .marcador__nombre { left: auto; right: 20px; top: 50%; transform: translateY(-50%); }
 .marcador--der .marcador__nombre { left: 20px; top: 50%; transform: translateY(-50%); }
 /* Separación entre los sectores de «Dónde dormir» */
+.dormir__atajos { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 clamp(28px, 4vw, 40px); }
+.dormir__atajos svg { transform: rotate(90deg); }
+.dormir { scroll-margin-top: 100px; }
 .dormir + .dormir {
   margin-top: clamp(48px, 7vw, 88px);
   padding-top: clamp(40px, 6vw, 72px);

@@ -331,15 +331,17 @@ export const contenido: Contenido = {
     eyebrow: 'Dónde dormir',
     titulo: 'Reserva tu lugar. Ayuda a cuidar el Valle.',
     bajada:
-      'El valle tiene una capacidad de visita que hay que respetar: reservar ordena el ingreso y cuida sus senderos, campings y ecosistemas. En La Junta, el corazón del valle, hay 4 alojamientos, y cada uno se reserva directamente con la familia u operador que lo gestiona. **Es necesario tener la reserva confirmada antes de ir.**',
+      'El valle tiene una capacidad de visita que hay que respetar: reservar ordena el ingreso y cuida sus senderos, campings y ecosistemas. En La Junta, el corazón del valle, hay 4 alojamientos, y cerca del inicio del sendero hay 3 más, por si no alcanzas a subir dentro del horario. Cada uno se reserva directamente con la familia u operador que lo gestiona. **Es necesario tener la reserva confirmada antes de ir.**',
     enlace: { label: 'Revisa los horarios de ingreso', href: `${PORTADA}/como-visitar#horarios` },
     bloques: [
       {
         slug: 'la-junta',
+        atajo: 'La Junta',
         titulo: 'Alojamientos en La Junta',
       },
       {
         slug: 'inicio-sendero',
+        atajo: 'Inicio del sendero',
         titulo: 'Previo a iniciar el sendero',
         texto:
           'Lugares donde dormir cerca del pueblo de Cochamó, por si no alcanzas a llegar dentro de los horarios permitidos de subida.',

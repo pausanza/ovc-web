@@ -339,15 +339,17 @@ export const contenido: Contenido = {
     eyebrow: 'Where to stay',
     titulo: 'Where to stay in the valley',
     bajada:
-      'La Junta, the heart of the valley, has 4 places to stay. Each one is run by a family or operator from the valley and is booked directly with them. **You need a confirmed booking before you go.**',
+      'La Junta, the heart of the valley, has 4 places to stay, and there are 3 more near the trailhead in case you cannot start the climb within the entry times. Each one is run by a family or operator from the valley and is booked directly with them. **You need a confirmed booking before you go.**',
     enlace: { label: 'Check the entry times', href: `${PORTADA}/como-visitar#horarios` },
     bloques: [
       {
         slug: 'la-junta',
+        atajo: 'La Junta',
         titulo: 'Places to stay in La Junta',
       },
       {
         slug: 'inicio-sendero',
+        atajo: 'Trailhead',
         titulo: 'Before you start the trail',
         texto:
           'Places to sleep near the village of Cochamó, in case you cannot make it within the allowed entry times.',

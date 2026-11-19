@@ -75,6 +75,19 @@ export function DondeDormir({ lang, id }: { lang: Lang; id?: string }) {
           enlace={dondeDormir.enlace && <Link href={dondeDormir.enlace.href}>{dondeDormir.enlace.label}</Link>}
         />
 
+        {/* Atajos a cada grupo: los del inicio del sendero quedaban muy
+            abajo, después de los de La Junta, y no se encontraban. */}
+        {id && (
+          <nav className="dormir__atajos revelar" aria-label={dondeDormir.eyebrow}>
+            {dondeDormir.bloques.map((bloque) => (
+              <a className="btn btn--borde btn--sm" href={`#${id}-${bloque.slug}`} key={bloque.slug}>
+                {bloque.atajo}
+                <Icon name="flecha" />
+              </a>
+            ))}
+          </nav>
+        )}
+
         {dondeDormir.bloques.map((bloque) => {
           const sector = sectoresDetalle.find((s) => s.slug === bloque.slug)
           if (!sector) return null
