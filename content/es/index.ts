@@ -395,11 +395,11 @@ export const contenido: Contenido = {
     },
     {
       id: 'toboganes',
-      nombre: 'Toboganes',
+      nombre: 'Cascadas de La Junta “Toboganes”',
       tipo: 'referencia',
       lat: -41.40869,
       lon: -72.125317,
-      descripcion: 'Los pozones y resbalines que el río labró en la roca pulida, a un rato de La Junta.',
+      descripcion: 'Principal atracción del Santuario de la Naturaleza Valle Cochamó. Está estrictamente prohibido deslizarse por las cascadas.',
     },
     {
       id: 'cerro-arcoiris',

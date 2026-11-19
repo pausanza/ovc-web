@@ -403,11 +403,11 @@ export const contenido: Contenido = {
     },
     {
       id: 'toboganes',
-      nombre: 'Toboganes',
+      nombre: 'La Junta Waterfalls “Toboganes”',
       tipo: 'referencia',
       lat: -41.40869,
       lon: -72.125317,
-      descripcion: 'The pools and natural slides the river carved into polished rock, a short walk from La Junta.',
+      descripcion: 'The main attraction of the Valle Cochamó Nature Sanctuary. Sliding down the waterfalls is strictly prohibited.',
     },
     {
       id: 'cerro-arcoiris',
