@@ -321,11 +321,11 @@ export const contenido: Contenido = {
       nombre: 'La Junta',
       insignia: 'Heart of the valley',
       descripcion:
-        'The valley’s tourism hub, reachable only on foot or on horseback. This is where the campsites and lodging are, and the waterslides are nearby.',
+        'The valley’s tourism hub, reachable only on foot or on horseback. This is where the campsites and lodging are, and the Toboganes waterfalls are nearby.',
       datos: [
         { icono: 'sendero', texto: '13 km from the trailhead' },
         { icono: 'carpa', texto: 'Playa Los Manzanos, Vista Hermosa and La Junta campsites' },
-        { icono: 'agua', texto: 'Granite waterslides a short walk away' },
+        { icono: 'agua', texto: 'The Toboganes waterfalls, to admire, a short walk away' },
       ],
       foto: {
         ...imagenes.campingLaJunta,
@@ -487,9 +487,9 @@ export const contenido: Contenido = {
     },
     {
       icono: 'alerta',
-      titulo: 'The Cochamó waterslides',
+      titulo: 'La Junta Waterfalls “Toboganes”',
       texto:
-        'They are named after their natural waterslide shape, which tempts people to slide down them. They are **extremely dangerous**: most of the serious accidents in the valley happen there.',
+        'A place to admire. They are named after their natural slide shape, but **sliding down the waterfalls is strictly prohibited**: they are extremely dangerous and most of the serious accidents in the valley happen there.',
     },
     {
       icono: 'montana',

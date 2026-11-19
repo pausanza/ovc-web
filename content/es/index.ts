@@ -316,7 +316,7 @@ export const contenido: Contenido = {
       datos: [
         { icono: 'sendero', texto: '13 km desde el inicio del sendero' },
         { icono: 'carpa', texto: 'Campings Playa Los Manzanos, Vista Hermosa y La Junta' },
-        { icono: 'agua', texto: 'Toboganes de granito a corta distancia' },
+        { icono: 'agua', texto: 'Las cascadas de los Toboganes, para contemplar, a corta distancia' },
       ],
       foto: {
         ...imagenes.campingLaJunta,
@@ -479,9 +479,9 @@ export const contenido: Contenido = {
     },
     {
       icono: 'alerta',
-      titulo: 'Toboganes de Cochamó',
+      titulo: 'Cascadas de La Junta “Toboganes”',
       texto:
-        'Su nombre viene de su aspecto de tobogán natural y atrae a la gente a deslizarse por ellos. Son **extremadamente peligrosos**: la mayoría de los accidentes graves del valle ocurren allí.',
+        'Son un lugar para contemplar. Su nombre viene de su forma de tobogán natural, pero **está estrictamente prohibido deslizarse por las cascadas**: son extremadamente peligrosas y allí ocurren la mayoría de los accidentes graves del valle.',
     },
     {
       icono: 'montana',

@@ -121,7 +121,7 @@ export const sectoresDetalle: SectorDetalle[] = [
       { etiqueta: 'Escalada', valor: 'Más de 100 rutas' },
     ],
     avisos: [
-      'Los Toboganes están cerca y son extremadamente peligrosos: la mayoría de los accidentes graves del valle ocurren allí.',
+      'Las cascadas de los Toboganes están cerca y son para contemplar. Está estrictamente prohibido deslizarse por ellas: la mayoría de los accidentes graves del valle ocurren allí.',
       'No hay rescatistas ni servicios de emergencia. Lo que lleves y lo que sepas es toda la seguridad con la que cuentas.',
     ],
     alojamientos: [

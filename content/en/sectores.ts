@@ -7,7 +7,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     nombre: 'Inicio Sendero',
     titular: 'Where the Cochamó River meets the sea',
     intro:
-      'The starting point for La Junta, the waterslides and every other trek in the valley. The Visitor Centre is here, and this is where everyone signs in before heading up.',
+      'The starting point for La Junta, the Toboganes waterfalls and every other trek in the valley. The Visitor Centre is here, and this is where everyone signs in before heading up.',
     parrafos: [
       'The entrance to the Cochamó Valley sits where the Cochamó River flows into the sea, at the junction of the main road and the gravel track. From the bridge you get a view of the clear-water river, the imposing Cerro Arcoíris and the native forest that runs through the whole valley.',
       'You turn onto the gravel track and drive 6 kilometres to the end, where you find parking, campsites and the Cochamó Valley Visitor Centre.',
@@ -114,7 +114,7 @@ export const sectoresDetalle: SectorDetalle[] = [
       { etiqueta: 'Climbing', valor: 'More than 100 routes' },
     ],
     avisos: [
-      'The waterslides are nearby and extremely dangerous: most of the serious accidents in the valley happen there.',
+      'The Toboganes waterfalls are nearby and are for admiring only. Sliding down them is strictly prohibited: most of the serious accidents in the valley happen there.',
       'There are no rescue teams and no emergency services. What you carry and what you know is all the safety you have.',
     ],
     alojamientos: [

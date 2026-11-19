@@ -234,7 +234,7 @@ export const horariosYContacto = {
   horarios: [
     { franja: '7:00 am — 3:00 pm', detalle: 'Camping at the La Junta campsites, booking required' },
     { franja: '8:00 am — 2:00 pm', detalle: 'The same, during March and April' },
-    { franja: '7:00 — 9:00 am', detalle: 'Day trips to La Junta or the waterslides · maximum 90 people' },
+    { franja: '7:00 — 9:00 am', detalle: 'Day trips to La Junta or the Toboganes waterfalls · maximum 90 people' },
     { franja: '12:00 — 4:00 pm', detalle: 'Río Piedra' },
     { franja: '7:00 and 9:00 am', detalle: 'El Arco or the La Herradura circuit · requires very good fitness' },
   ],
