@@ -1907,6 +1907,30 @@ p { text-wrap: pretty; }
   color: var(--texto-suave);
 }
 
+/* En Cómo visitar, día o varios días es una decisión con horarios y permisos
+   distintos: la sección va en amarillo suave y la tabla en una tarjeta con
+   cabecera verde, para que no se lea como un dato más. */
+.dia-vs-semana { background: var(--oro-100); }
+.dia-vs-semana .lead { color: var(--texto); font-weight: 500; }
+.dia-vs-semana .comparativa {
+  background: var(--blanco);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra-md);
+}
+.dia-vs-semana .comparativa th,
+.dia-vs-semana .comparativa td { padding: 18px 22px; font-size: 1rem; color: var(--texto); }
+.dia-vs-semana .comparativa thead th { background: var(--bosque-900); border-bottom: 4px solid var(--oro-500); }
+.dia-vs-semana .comparativa thead td { background: var(--bosque-900); border-bottom: 4px solid var(--oro-500); }
+.dia-vs-semana .comparativa__titulo { color: var(--blanco); font-size: 1.4rem; }
+.dia-vs-semana .comparativa__resumen { color: rgba(255, 255, 255, .82); font-size: .9rem; }
+.dia-vs-semana .comparativa tbody th { color: var(--bosque-700); font-size: .8rem; }
+.dia-vs-semana .comparativa tbody .es-destacada { background: transparent; }
+.dia-vs-semana .comparativa thead .es-destacada { background: var(--bosque-800); }
+.dia-vs-semana .comparativa tfoot .es-destacada { background: var(--bosque-100); }
+.dia-vs-semana .comparativa tbody tr:nth-child(even) { background: var(--arena-100); }
+.dia-vs-semana .comparativa tfoot td,
+.dia-vs-semana .comparativa tfoot th { background: var(--bosque-100); font-size: .95rem; color: var(--texto); }
+
 .costo__opcional {
   display: inline-block;
   margin-left: 9px;

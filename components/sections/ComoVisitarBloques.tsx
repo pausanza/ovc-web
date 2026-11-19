@@ -150,7 +150,7 @@ export function DiaVsSemana({ lang }: { lang: Lang }) {
   const { modalidades, filas } = diaVsSemana
 
   return (
-    <section className="seccion" id="dia-vs-semana">
+    <section className="seccion dia-vs-semana" id="dia-vs-semana">
       <div className="contenedor">
         <SectionHeader className="revelar" eyebrow={diaVsSemana.eyebrow} titulo={diaVsSemana.titulo} bajada={diaVsSemana.bajada} />
 
