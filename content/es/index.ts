@@ -407,7 +407,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403911,
       lon: -72.159243,
-      descripcion: 'Pared de granito super vertical al noroeste del valle con rutas de escalada largas y exigentes.',
+      descripcion: 'Actualmente cerrado por derrumbe. Uno de los senderos más exigentes del Santuario Valle Cochamó. Avisaremos públicamente cuando se pueda visitar.',
     },
     {
       id: 'la-paloma',

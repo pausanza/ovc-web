@@ -415,7 +415,7 @@ export const contenido: Contenido = {
       tipo: 'referencia',
       lat: -41.403911,
       lon: -72.159243,
-      descripcion: 'A sheer granite wall north-west of the valley, with long and demanding climbing routes.',
+      descripcion: 'Currently closed due to a landslide. One of the most demanding trails in the Valle Cochamó Sanctuary. We will announce publicly when it can be visited again.',
     },
     {
       id: 'la-paloma',
