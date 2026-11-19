@@ -668,14 +668,6 @@ export const conservacionPagina: PaginaLarga = {
       ],
     },
     {
-      titulo: 'Do we want to be Yosemite, or do we want to be Cochamó?',
-      parrafos: [
-        'The comparison with Yosemite is meant as praise, and it is understandable: granite walls, forest, rivers. But Yosemite has a road, and that road changed what the place is.',
-        'In the Manso valley, the next one south, a road has already been built. Whoever built it wants to build another one here. A vehicle road in Cochamó would be the end of the pack horses, of the arriero culture and of an ecosystem that today is only reached on foot or on horseback.',
-        'The value of the valley is not in resembling somewhere else. It is in everything that makes it different.',
-      ],
-    },
-    {
       titulo: 'The people who live off the trail',
       parrafos: [
         'There are arriero families who have travelled this trail with their horses for generations: the grandparents did it, the children do it and the grandchildren are doing it still. It is not a tourist attraction, it is a trade.',

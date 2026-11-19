@@ -687,14 +687,6 @@ export const conservacionPagina: PaginaLarga = {
       ],
     },
     {
-      titulo: '¿Queremos ser Yosemite, o queremos ser Cochamó?',
-      parrafos: [
-        'La comparación con Yosemite se usa como elogio, y se entiende: paredes de granito, bosque, ríos. Pero Yosemite tiene un camino, y ese camino cambió lo que el lugar es.',
-        'En el valle del Manso, vecino por el sur, ya se construyó uno. Quien lo hizo quiere construir otro aquí. Un camino vehicular en Cochamó terminaría con los pilcheros, con la cultura arriera y con el ecosistema que hoy solo se alcanza a pie o a caballo.',
-        'El valor del valle no está en parecerse a otro lugar. Está en todo lo que lo hace distinto.',
-      ],
-    },
-    {
       titulo: 'Quienes viven del sendero',
       parrafos: [
         'Hay familias de arrieros que llevan generaciones recorriendo esta senda con sus caballos: lo hicieron los abuelos, lo hacen los hijos y lo siguen haciendo los nietos. No es una atracción turística, es un oficio.',
