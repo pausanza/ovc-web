@@ -6,7 +6,7 @@ const ICONO_CONTACTO: Record<TipoContacto, IconName> = {
   telefono: 'reloj',
   whatsapp: 'gente',
   email: 'mail',
-  web: 'pin',
+  web: 'web',
   instagram: 'instagram',
   facebook: 'facebook',
 }

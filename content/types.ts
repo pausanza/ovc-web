@@ -14,7 +14,7 @@ export type IconName =
   | 'chevron' | 'arriba' | 'instagram' | 'facebook' | 'youtube' | 'mail'
   | 'corazon' | 'carpa' | 'montana' | 'caballo' | 'reloj' | 'pin'
   | 'alerta' | 'sendero' | 'check' | 'hoja' | 'camino' | 'edificio'
-  | 'gente' | 'video' | 'botiquin' | 'agua' | 'cartel' | 'flecha'
+  | 'gente' | 'video' | 'botiquin' | 'agua' | 'cartel' | 'flecha' | 'web'
 
 /** Archivo de imagen sin texto: lo que no se traduce. */
 export interface Imagen {

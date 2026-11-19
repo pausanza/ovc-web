@@ -63,6 +63,12 @@ export function IconSprite() {
         <circle cx="12" cy="12" r="9" />
         <polyline points="12 6.8 12 12 15.6 14" />
       </symbol>
+      {/* Un globo: la página web de un alojamiento. Con el pin se confundía con una dirección. */}
+      <symbol id="i-web" viewBox="0 0 24 24" {...trazo}>
+        <circle cx="12" cy="12" r="9.5" />
+        <line x1="2.5" y1="12" x2="21.5" y2="12" />
+        <path d="M12 2.5a14.5 14.5 0 0 1 0 19M12 2.5a14.5 14.5 0 0 0 0 19" />
+      </symbol>
       <symbol id="i-pin" viewBox="0 0 24 24" {...trazo}>
         <path d="M20 10.4c0 5.6-8 12.1-8 12.1s-8-6.5-8-12.1a8 8 0 1 1 16 0z" />
         <circle cx="12" cy="10.2" r="2.8" />
