@@ -670,13 +670,6 @@ export const conservacionPagina: PaginaLarga = {
       ],
     },
     {
-      titulo: 'Those who live from the trail',
-      parrafos: [
-        'There are arriero families who have travelled this trail on horseback for generations. The grandparents did it, the children do it, and the grandchildren are already learning. It is not a show for tourists: it is a trade and a way of life.',
-        'That trade exists as long as the trail remains a trail. That is why the arriero families stand behind every decision the corporation makes about access to the valley.',
-      ],
-    },
-    {
       titulo: 'A community that chooses to care',
       parrafos: [
         'The corporation is made up of landowners in the valley, tourism workers and friends of the Cochamó Valley. Everyone takes part out of commitment and love for this place, not for a salary. Every donation we receive goes to the valley: to running the Visitor Centre and its team, trail maintenance, recycling and student projects, among others. The owners of the La Junta campsites, for example, could take in many more visitors and choose not to: they limit their capacity on purpose because they know the valley has a limit.',

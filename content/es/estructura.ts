@@ -689,13 +689,6 @@ export const conservacionPagina: PaginaLarga = {
       ],
     },
     {
-      titulo: 'Quienes viven del sendero',
-      parrafos: [
-        'Hay familias arrieras que recorren esta senda a caballo desde hace generaciones. Lo hicieron los abuelos, lo hacen los hijos y ya lo aprenden los nietos. No es un espectáculo para turistas: es un oficio y una forma de vida.',
-        'Ese oficio existe mientras el sendero siga siendo un sendero. Por eso las familias arrieras están detrás de cada decisión que la corporación toma sobre el acceso al valle.',
-      ],
-    },
-    {
       titulo: 'Una comunidad que elige cuidar',
       parrafos: [
         'La corporación la forman dueños de terrenos en el valle, trabajadores del turismo y amigos del Valle Cochamó. Todos participan por compromiso y amor a este lugar, no por un sueldo. Todas las donaciones que recibimos se destinan al valle: al funcionamiento del Centro de Visitantes y su equipo, a la mantención de senderos, al reciclaje y a proyectos estudiantiles, entre otros. Los dueños de los campings de La Junta, por ejemplo, podrían recibir a muchos más visitantes y deciden no hacerlo: limitan su capacidad a propósito porque saben que el valle tiene un límite.',
