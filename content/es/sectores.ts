@@ -117,8 +117,6 @@ export const sectoresDetalle: SectorDetalle[] = [
       { etiqueta: 'Acceso', valor: 'Solo a pie o a caballo' },
       { etiqueta: 'Ingreso con reserva', valor: '7:00 a 15:00 h (8:00 a 14:00 en marzo y abril)' },
       { etiqueta: 'Ir por el día', valor: '7:00 a 9:00 h · aforo máximo 90 personas' },
-      { etiqueta: 'Senderos', valor: 'Más de 40 km' },
-      { etiqueta: 'Escalada', valor: 'Más de 100 rutas' },
     ],
     avisos: [
       'Las cascadas de los Toboganes están cerca y son para contemplar. Está estrictamente prohibido deslizarse por ellas: la mayoría de los accidentes graves del valle ocurren allí.',

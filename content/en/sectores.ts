@@ -110,8 +110,6 @@ export const sectoresDetalle: SectorDetalle[] = [
       { etiqueta: 'Access', valor: 'On foot or on horseback only' },
       { etiqueta: 'Entry with a booking', valor: '7:00 am to 3:00 pm (8:00 am to 2:00 pm in March and April)' },
       { etiqueta: 'Day trips', valor: '7:00 to 9:00 am · maximum 90 people' },
-      { etiqueta: 'Trails', valor: 'More than 40 km' },
-      { etiqueta: 'Climbing', valor: 'More than 100 routes' },
     ],
     avisos: [
       'The Toboganes waterfalls are nearby and are for admiring only. Sliding down them is strictly prohibited: most of the serious accidents in the valley happen there.',
