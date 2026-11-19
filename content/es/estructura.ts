@@ -254,7 +254,7 @@ export const horariosYContacto = {
 
 export const elVallePagina = {
   eyebrow: 'El Valle de Cochamó',
-  titulo: 'Un lugar que merece ser protegido',
+  titulo: 'Un lugar protegido por su gente',
   bajada:
     'En el corazón de la Patagonia norte de Chile, el Valle de Cochamó alberga un extraordinario paisaje de bosques templados lluviosos, ríos de aguas cristalinas e imponentes paredes de granito. Un territorio de gran riqueza natural y cultural, donde la naturaleza, las comunidades y las tradiciones conviven desde hace generaciones.',
   cierre: 'Un lugar para descubrir, valorar y conservar.',

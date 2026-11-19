@@ -249,7 +249,7 @@ export const horariosYContacto = {
 
 export const elVallePagina = {
   eyebrow: 'The Cochamó Valley',
-  titulo: 'A place that deserves protecting',
+  titulo: 'A place protected by its people',
   bajada:
     'In the heart of northern Chilean Patagonia, the Cochamó Valley holds an extraordinary landscape of temperate rainforest, crystal-clear rivers and towering granite walls. A territory of great natural and cultural richness, where nature, communities and traditions have lived side by side for generations.',
   cierre: 'A place to discover, to value and to conserve.',
