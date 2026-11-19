@@ -77,7 +77,7 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
         </div>
       </section>
 
-      <section className="seccion seccion--oscura">
+      <section className="seccion lectura__cierre-seccion">
         <div className="contenedor contenedor--lectura">
           <div className="lectura__cierre revelar">
             <h2>{pagina.cierre.titulo}</h2>
