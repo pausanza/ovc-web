@@ -77,7 +77,7 @@ export const contenido: Contenido = {
     fotoReservar: 'Vista aérea de los campings de La Junta junto al recodo del río',
     lineaDeTiempo: 'Cómo llegamos hasta aquí',
     sobreElSector: 'Sobre el sector',
-    datosClave: 'Datos clave',
+    datosClave: 'Información importante para tu visita',
     tenEnCuenta: 'Ten en cuenta',
     verTodosLosSectores: 'Ver dónde dormir',
     masInfoEn: 'Más información',

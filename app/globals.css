@@ -1217,25 +1217,42 @@ p { text-wrap: pretty; }
 .miga a:hover { color: var(--blanco); }
 
 /* Datos clave */
+/* Acceso y horarios es lo que más necesita saber quien va a subir: va en
+   verde bosque, con título y letra grande, para que no se pase por alto. */
+.datos-clave__titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  color: var(--bosque-900);
+}
+.datos-clave__titulo svg { width: 1.1em; height: 1.1em; flex: none; color: var(--bosque-600); }
 .datos-clave {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1px;
   margin: 0;
-  background: var(--borde);
-  border: 1px solid var(--borde);
+  background: rgba(255, 252, 235, .14);
   border-radius: var(--radio);
   overflow: hidden;
+  box-shadow: var(--sombra-sm);
 }
-.datos-clave__item { background: var(--bg-alt); padding: 22px 24px; }
+.datos-clave__item { background: var(--bosque-900); padding: 26px 28px; }
 .datos-clave dt {
-  font-size: .76rem;
+  font-size: .8rem;
   font-weight: 700;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--bosque-600);
+  color: var(--oro-500);
 }
-.datos-clave dd { margin: 8px 0 0; font-size: 1rem; line-height: 1.5; color: var(--texto); }
+.datos-clave dd {
+  margin: 10px 0 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--arena-100);
+}
 
 /* Relato */
 .sector-texto { max-width: 68ch; }

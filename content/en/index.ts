@@ -86,7 +86,7 @@ export const contenido: Contenido = {
     fotoReservar: 'Aerial view of the La Junta campsites beside the bend in the river',
     lineaDeTiempo: 'How we got here',
     sobreElSector: 'About this sector',
-    datosClave: 'Key facts',
+    datosClave: 'Important information for your visit',
     tenEnCuenta: 'Bear in mind',
     verTodosLosSectores: 'See all three sectors',
     masInfoEn: 'More information',

@@ -94,6 +94,10 @@ export default async function PaginaSector({ params }: PageProps<'/[lang]/sector
       {/* Datos clave */}
       <section className="seccion seccion--alt" aria-label={textos.datosClave}>
         <div className="contenedor">
+          <h2 className="datos-clave__titulo">
+            <Icon name="reloj" />
+            {textos.datosClave}
+          </h2>
           <dl className="datos-clave">
             {sector.datosClave.map((dato) => (
               <div className="datos-clave__item revelar" key={dato.etiqueta}>
