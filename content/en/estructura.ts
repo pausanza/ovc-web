@@ -419,7 +419,7 @@ export const gruposEspecies: GrupoEspecies[] = [
     intro:
       'Long before the forests we know today existed, geological processes spanning millions of years began to shape the landscape of Cochamó.',
     imagen: 'granitoParedes',
-    alt: 'The valley’s great granite walls above the forest',
+    alt: 'Granite peaks under storm clouds, with a large slab of rock in the foreground and alerce forest',
     fichas: [
       {
         nombre: 'North Patagonian Batholith',

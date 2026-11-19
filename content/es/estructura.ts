@@ -438,7 +438,7 @@ export const gruposEspecies: GrupoEspecies[] = [
     intro:
       'Mucho antes de que existieran los bosques que hoy conocemos, procesos geológicos de millones de años comenzaron a dar forma al paisaje de Cochamó.',
     imagen: 'granitoParedes',
-    alt: 'Las grandes paredes de granito del valle sobre el bosque',
+    alt: 'Cumbres de granito bajo nubes de tormenta, con una gran laja de roca en primer plano y bosque de alerces',
     fichas: [
       {
         nombre: 'Batolito Norpatagónico',
