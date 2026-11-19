@@ -97,7 +97,7 @@ export const comoVisitarPagina = {
 export const comoLlegar = {
   eyebrow: 'Getting here',
   titulo: 'To the start of the trail',
-  bajada: 'The valley is in the Cochamó district. From the centre of the village to the trailhead it is 10 km, of which about 5 or 6 km are gravel road.',
+  bajada: 'The valley is in the Cochamó district. From the centre of the village to the trailhead it is 10 km, of which 6 km are gravel road.',
   auto: {
     titulo: 'By car',
     texto:
