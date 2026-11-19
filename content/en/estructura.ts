@@ -97,7 +97,7 @@ export const comoVisitarPagina = {
 export const comoLlegar = {
   eyebrow: 'Getting here',
   titulo: 'To the start of the trail',
-  bajada: 'The valley is in the Cochamó district. From the village to the trailhead there are 10 km of gravel road.',
+  bajada: 'The valley is in the Cochamó district. From the centre of the village to the trailhead it is 10 km, of which about 5 or 6 km are gravel road.',
   auto: {
     titulo: 'By car',
     texto:
@@ -146,11 +146,9 @@ export const cuantoCuesta = {
   costos: [
     {
       concepto: 'Entry',
-      etiqueta: 'Voluntary contribution',
+      etiqueta: 'Suggested contribution',
       valor: 'CLP 4,000',
-      unidad: 'suggested contribution',
-      detalle: 'It is voluntary and goes straight into looking after the valley. If you come for the day you do not need a booking; to stay the night, you do.',
-      opcional: true,
+      detalle: 'It goes straight into looking after the valley. If you come for the day you do not need a booking; to stay the night, you do.',
     },
     {
       concepto: 'Accommodation',

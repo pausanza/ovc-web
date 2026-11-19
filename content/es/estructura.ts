@@ -98,7 +98,7 @@ export const comoVisitarPagina = {
 export const comoLlegar = {
   eyebrow: 'Cómo llegar',
   titulo: 'Hasta el inicio del sendero',
-  bajada: 'El valle está en la comuna de Cochamó. Desde el pueblo al inicio del sendero hay 10 km de camino de ripio.',
+  bajada: 'El valle está en la comuna de Cochamó. Desde el centro del pueblo hasta el inicio del sendero hay 10 km, de los cuales unos 5 o 6 km son de camino de ripio.',
   auto: {
     titulo: 'En auto',
     texto:
@@ -147,11 +147,9 @@ export const cuantoCuesta = {
   costos: [
     {
       concepto: 'Entrada',
-      etiqueta: 'Aporte voluntario',
+      etiqueta: 'Aporte sugerido',
       valor: '$4.000',
-      unidad: 'aporte sugerido',
-      detalle: 'Es voluntario y va directo al cuidado del valle. Si vas por el día no necesitas reserva; para pasar la noche, sí.',
-      opcional: true,
+      detalle: 'Va directo al cuidado del valle. Si vas por el día no necesitas reserva; para pasar la noche, sí.',
     },
     {
       concepto: 'Alojamiento',

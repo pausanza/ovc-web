@@ -594,7 +594,7 @@ export const contenido: Contenido = {
     eyebrow: 'Lo que está en juego',
     titulo: 'Que Cochamó siga siendo Cochamó',
     bajada:
-      'Lo llaman el “Yosemite de Sudamérica”. Pero su verdadero valor no está en parecerse a otro lugar, sino en todo aquello que lo hace único. A pesar de los avances en su conservación, el valle continúa enfrentando amenazas que ponen en riesgo sus ecosistemas, sus paisajes y las tradiciones de quienes lo habitan.',
+      'Su verdadero valor está en todo aquello que lo hace único. A pesar de los avances en su conservación, el valle continúa enfrentando amenazas que ponen en riesgo sus ecosistemas, sus paisajes y las tradiciones de quienes lo habitan.',
     cierre: 'Proteger Cochamó es asegurar que su futuro no comprometa aquello que lo hace extraordinario.',
     cta: { label: 'Saber más', href: `${PORTADA}/conservacion` },
     ctaProteger: { label: 'Protege el valle', href: `${PORTADA}/como-ayudar#donaciones` },

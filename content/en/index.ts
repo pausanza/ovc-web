@@ -602,7 +602,7 @@ export const contenido: Contenido = {
     eyebrow: 'What is at stake',
     titulo: 'That Cochamó keeps being Cochamó',
     bajada:
-      'They call it the “Yosemite of South America”. But its real value is not in resembling somewhere else: it is in everything that makes it unique. Despite the progress in its conservation, the valley still faces threats to its ecosystems, its landscapes and the traditions of those who live there.',
+      'Its real value lies in everything that makes it unique. Despite the progress in its conservation, the valley still faces threats to its ecosystems, its landscapes and the traditions of those who live there.',
     cierre: 'Protecting Cochamó means making sure its future does not compromise what makes it extraordinary.',
     cta: { label: 'Find out more', href: `${PORTADA}/conservacion` },
     ctaProteger: { label: 'Protect the valley', href: `${PORTADA}/como-ayudar#donaciones` },
