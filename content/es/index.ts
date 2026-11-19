@@ -178,7 +178,7 @@ export const contenido: Contenido = {
       'Un valle de naturaleza extraordinaria, historia y comunidad. Conoce el trabajo que hacemos para cuidar este territorio y descubre cómo visitarlo de manera responsable.',
     visitar: { label: 'Planifica tu visita', href: `${PORTADA}/como-visitar` },
     conocer: { label: 'Conoce el valle', href: `${PORTADA}#el-valle` },
-    alt: 'Paredes de granito del Valle Cochamó con el bosque nativo del valle al fondo',
+    alt: 'Las cascadas de los Toboganes cayendo sobre granito pulido hasta una poza turquesa, rodeadas de bosque nativo y con una cumbre de granito al fondo',
   },
 
   cifrasTitulo: 'Algunas cifras',

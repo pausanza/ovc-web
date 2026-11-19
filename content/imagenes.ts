@@ -8,7 +8,7 @@ import type { Imagen } from './types'
  * descuido se paga con saltos de layout.
  */
 export const imagenes = {
-  hero: { src: '/img/hero-cochamo.jpg', width: 1280, height: 720 },
+  hero: { src: '/img/hero-toboganes.jpg', width: 1920, height: 1440 },
   heroAnterior: { src: '/img/hero-granito.jpg', width: 1800, height: 1199 },
   laJuntaAerea: { src: '/img/la-junta-aerea.jpg', width: 1115, height: 743 },
   logroCentroVisitantes: { src: '/img/logro-centro-visitantes.jpg', width: 2500, height: 1406 },
