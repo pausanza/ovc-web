@@ -14,7 +14,13 @@ export function Cifras({ lang }: { lang: Lang }) {
               <p className="cifra__numero">
                 {cifra.prefijo}
                 <Contador valor={cifra.valor} locale={LOCALE[lang]} />
-                {cifra.sufijo && <small>{cifra.sufijo}</small>}
+                {/* Los decimales (",8") van al tamaño del número; solo la unidad va chica. */}
+                {cifra.sufijo && (
+                  <>
+                    {cifra.sufijo.match(/^[^\s]*/)?.[0]}
+                    <small>{cifra.sufijo.replace(/^[^\s]*/, '')}</small>
+                  </>
+                )}
               </p>
               <p className="cifra__texto">{cifra.texto}</p>
             </div>

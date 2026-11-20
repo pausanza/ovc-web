@@ -495,13 +495,15 @@ p { text-wrap: pretty; }
 .cifra + .cifra { border-left: 2px solid var(--arena-100); }
 .cifra__numero {
   font-family: var(--display);
-  font-size: clamp(2.2rem, 3.8vw, 3.15rem);
+  font-size: clamp(2rem, 3.2vw, 2.8rem);
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.01em;
   color: var(--lila-100);
+  /* Número y unidad en una sola línea: «11.432,8 ha» se partía en dos. */
+  white-space: nowrap;
 }
-.cifra__numero small { font-size: 1em; }
+.cifra__numero small { font-size: .62em; margin-left: .12em; }
 .cifra__texto { max-width: 19em; margin-top: 14px; font-size: .95rem; font-weight: 300; line-height: 1.15; }
 
 /* --------------------------------------------------------------------------
