@@ -34,7 +34,7 @@ export const imagenes = {
   actCabalgatas: { src: '/img/act-cabalgatas.jpg', width: 384, height: 384 },
   ranitaDarwin: { src: '/img/ranita-darwin.jpg', width: 1080, height: 546 },
   condorAlturas: { src: '/img/condor-alturas.jpg', width: 2000, height: 1333 },
-  alerce: { src: '/img/alerce.jpg', width: 1200, height: 899 },
+  alerce: { src: '/img/alerce-tronco.jpg', width: 480, height: 640 },
   logo: { src: '/img/logo-ovc.png', width: 93, height: 73 },
   payku: { src: '/img/payku.png', width: 370, height: 141 },
   logoIso: { src: '/img/logo-ovc-iso.png', width: 638, height: 497 },
