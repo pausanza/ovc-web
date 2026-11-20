@@ -286,6 +286,8 @@ export interface PaginaLarga {
   cifras?: { valor: string; texto: string }[]
   bloques: {
     titulo: string
+    /** Una frase destacada, como la visión del santuario. */
+    cita?: string
     parrafos?: string[]
     lista?: string[]
     grupos?: { titulo: string; items: string[] }[]

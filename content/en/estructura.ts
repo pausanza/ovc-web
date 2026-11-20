@@ -604,27 +604,30 @@ export const santuarioPagina: PaginaLarga = {
       ],
     },
     {
+      titulo: 'Conservation vision',
+      cita: 'The Valle Cochamó Nature Sanctuary is a benchmark in the effective conservation and responsible use of the ecological, cultural and human well-being values of the Cochamó river basin, with participatory governance that ensures the financial sustainability needed to protect the territory over time.',
+    },
+    {
       titulo: 'What does the sanctuary protect?',
       grupos: [
         {
-          titulo: 'Ecological and scientific importance',
+          titulo: 'Biological conservation values',
           items: [
-            'Primary forests and alerce stands',
-            'The Cochamó river and its riparian wetlands',
-            'The North Patagonian Batholith',
-            'The diversity of temperate forest fauna',
-            'The alerce, a natural monument species',
-            'The valley’s geodiversity',
+            'Cochamó River',
+            'Native forest',
+            'Riparian vegetation and wetlands',
+            'North Patagonian Batholith',
+            'Forest mammals',
+            'Alerce',
           ],
         },
         {
-          titulo: 'Social and cultural importance',
-          items: [
-            'The presence of indigenous peoples',
-            'The arrieros’ trail',
-            'The self-sufficient arriero culture',
-            'Sustainable tourism as a local way of life',
-          ],
+          titulo: 'Cultural conservation values',
+          items: ['Arriero and peasant culture'],
+        },
+        {
+          titulo: 'Human well-being values',
+          items: ['Soundscape', 'Climbing'],
         },
       ],
     },

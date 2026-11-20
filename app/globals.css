@@ -2655,6 +2655,18 @@ p { text-wrap: pretty; }
 .lectura__bloque h2 { font-size: clamp(1.4rem, 2.8vw, 1.9rem); }
 .lectura__bloque p { margin-top: 14px; line-height: 1.75; color: var(--texto-suave); }
 
+.lectura__cita {
+  margin: 20px 0 0;
+  padding: 22px 26px;
+  border-left: 4px solid var(--oro-500);
+  border-radius: 0 var(--radio-sm) var(--radio-sm) 0;
+  background: var(--bosque-100);
+  font-family: var(--display);
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--bosque-900);
+}
 .lectura__lista { display: grid; gap: 11px; margin-top: 18px; }
 .lectura__lista li { display: flex; align-items: flex-start; gap: 10px; line-height: 1.6; color: var(--texto); }
 .lectura__lista svg { width: 16px; height: 16px; flex: none; margin-top: 5px; color: var(--bosque-500); }

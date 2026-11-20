@@ -40,6 +40,8 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
             <div className="lectura__bloque revelar" key={bloque.titulo}>
               <h2>{bloque.titulo}</h2>
 
+              {bloque.cita && <blockquote className="lectura__cita">{bloque.cita}</blockquote>}
+
               {bloque.parrafos?.map((parrafo) => (
                 <p key={parrafo}>{conNegritas(parrafo)}</p>
               ))}

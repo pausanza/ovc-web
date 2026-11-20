@@ -623,27 +623,30 @@ export const santuarioPagina: PaginaLarga = {
       ],
     },
     {
+      titulo: 'Visión de conservación',
+      cita: 'El Santuario de la Naturaleza Valle Cochamó es un referente en la conservación efectiva y uso responsable de los valores ecológicos, culturales y de bienestar humano de la cuenca del río Cochamó, con una gobernanza participativa que asegura la sostenibilidad financiera para la protección del territorio en el tiempo.',
+    },
+    {
       titulo: '¿Qué se protege con el santuario?',
       grupos: [
         {
-          titulo: 'Importancia ecológica y científica',
+          titulo: 'Valores de conservación biológicos',
           items: [
-            'Bosques primarios y alerzales',
-            'El río Cochamó y sus humedales ribereños',
-            'El Batolito Norpatagónico',
-            'La diversidad de fauna del bosque templado',
-            'El alerce, especie monumento natural',
-            'La geodiversidad del valle',
+            'Río Cochamó',
+            'Bosque nativo',
+            'Vegetación ribereña y humedales',
+            'Batolito Patagónico Norte',
+            'Mamíferos del bosque',
+            'Alerce',
           ],
         },
         {
-          titulo: 'Importancia sociocultural',
-          items: [
-            'La presencia de pueblos originarios',
-            'El camino de los arrieros',
-            'La cultura arriera de autosubsistencia',
-            'El turismo sustentable como forma de vida local',
-          ],
+          titulo: 'Valores de conservación culturales',
+          items: ['Cultura arriera y campesina'],
+        },
+        {
+          titulo: 'Valores de bienestar humano',
+          items: ['Paisaje sonoro', 'Escalada'],
         },
       ],
     },
