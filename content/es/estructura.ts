@@ -17,7 +17,7 @@ export const elValle: Encabezado = {
   eyebrow: 'El valle',
   titulo: 'Por qué este valle no se parece a ningún otro',
   bajada:
-    'Paredes de granito de mil metros sobre bosque siempreverde, un sendero que los arrieros abrieron hace más de un siglo y una comunidad que decidió cuidarlo antes de que llegara el camino.',
+    'Paredes de granito de mil metros sobre bosque siempreverde y aguas cristalinas. Y una comunidad que se mantiene firme frente a las amenazas del turismo masivo, los proyectos inmobiliarios y todo lo que pueda poner en peligro este lugar que tanto amamos y respetamos.',
 }
 
 export const rasgos: Rasgo[] = [

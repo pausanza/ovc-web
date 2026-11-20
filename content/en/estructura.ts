@@ -16,7 +16,7 @@ export const elValle: Encabezado = {
   eyebrow: 'The valley',
   titulo: 'Why this valley is like no other',
   bajada:
-    'Thousand-metre granite walls above evergreen forest, a trail the muleteers opened more than a century ago, and a community that decided to look after it before the road arrived.',
+    'Thousand-metre granite walls above evergreen forest and crystal-clear waters. And a community that stands firm against the threats of mass tourism, real estate projects and anything else that could endanger this place we love and respect so much.',
 }
 
 export const rasgos: Rasgo[] = [
