@@ -31,15 +31,13 @@ export default async function Portada({ params }: PageProps<'/[lang]'>) {
       {/* 1 · Hero */}
       <Hero lang={lang} />
 
-      {/* 2 · El Valle, y 3 · las cifras */}
+      {/* 2 · El Valle, 3 · lo hecho y 4 · las cifras */}
       <ElValle lang={lang} />
+      <Proyectos lang={lang} modo="portada" />
       <Cifras lang={lang} />
 
-      {/* 4 · Impacto, con el santuario */}
+      {/* 5 · Impacto, con el santuario, y el paso a Cómo ayudar */}
       <Impacto lang={lang} />
-
-      {/* 5 · Lo hecho, y el paso a Cómo ayudar */}
-      <Proyectos lang={lang} modo="portada" />
       <CierrePortada lang={lang} />
 
       {/* 6 · Boletín */}

@@ -2823,8 +2823,6 @@ body:has(:is(.hero, .pagina-hero, .sector-hero)) .cabecera:not(.esta-fija) { bac
   border-image: linear-gradient(var(--bosque-900) 0 0) fill 0 // 0 100vmax;
 }
 
-/* Impacto y Otros proyectos comparten el aire entre ambos */
-.portada #impacto { padding-bottom: 0; }
 
 /* Otros proyectos: un carrusel de cuatro tarjetas a la vista (menos en
    pantallas chicas), con el verde empezando a media altura de las fotos. */
