@@ -2830,6 +2830,17 @@ body:has(:is(.hero, .pagina-hero, .sector-hero)) .cabecera:not(.esta-fija) { bac
    pantallas chicas), con el verde empezando a media altura de las fotos. */
 .obras { padding-top: clamp(64px, 8vw, 104px); }
 .obras__titulo { max-width: 11em; margin-inline: auto; text-align: center; }
+.obras__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 17px;
+  margin-top: 64px;
+  padding-bottom: clamp(48px, 7vw, 88px);
+  /* La franja verde empieza a media altura de las fotos de la primera fila */
+  border-image: linear-gradient(transparent 95px, var(--bosque-900) 0) fill 0 // 0 100vmax;
+}
+@media (max-width: 1000px) { .obras__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .obras__grid { grid-template-columns: 1fr; } }
 .carrusel {
   margin-top: 64px;
   padding-bottom: 8px;

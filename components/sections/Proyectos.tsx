@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Boton, esExterno } from '@/components/ui/Boton'
-import { Carrusel } from '@/components/ui/Carrusel'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { getContenido, imagenes, type Lang } from '@/content'
 
@@ -9,8 +8,8 @@ export function Proyectos({ lang, modo }: { lang: Lang; modo: 'desafios' | 'logr
     getContenido(lang)
 
   /*
-   * En la portada las obras van en una fila que se desliza, montada a medias
-   * sobre la franja verde. Van todas, también el santuario, igual que en
+   * En la portada las obras van en una grilla, todas a la vista y montadas a
+   * medias sobre la franja verde. Van todas, también el santuario, igual que en
    * «Lo que hemos logrado» de Historia.
    */
   if (modo === 'portada') {
@@ -19,7 +18,7 @@ export function Proyectos({ lang, modo }: { lang: Lang; modo: 'desafios' | 'logr
         <div className="contenedor">
           <h2 className="obras__titulo revelar">{logrosPortadaTitulo}</h2>
 
-          <Carrusel anterior={textos.anterior} siguiente={textos.siguiente}>
+          <div className="obras__grid">
             {logros
               .map((logro) => {
                 const foto = imagenes[logro.imagen]
@@ -39,7 +38,7 @@ export function Proyectos({ lang, modo }: { lang: Lang; modo: 'desafios' | 'logr
                   </a>
                 )
               })}
-          </Carrusel>
+          </div>
         </div>
       </section>
     )
