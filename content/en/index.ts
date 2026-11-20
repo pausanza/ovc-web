@@ -292,7 +292,7 @@ export const contenido: Contenido = {
     equipo: [
       { nombre: 'Patricio Almonacid', foto: 'patricio-almonacid' },
       { nombre: 'Cecilia Alvarado', foto: 'cecilia-alvarado' },
-      { nombre: 'Andrés Amengual', foto: 'andres-amengual' },
+      { nombre: 'Paula Sanza', foto: 'paula-sanza' },
       { nombre: 'Aurelia Barría', foto: 'aurelia-barria' },
       { nombre: 'Yazmin Bucarey', foto: 'yazmin-bucarey' },
       { nombre: 'Rodrigo Condeza', foto: 'rodrigo-condeza' },
@@ -302,7 +302,7 @@ export const contenido: Contenido = {
       { nombre: 'Cristian Gallardo', foto: 'cristian-gallardo' },
       { nombre: 'Brady Liljemark', foto: 'brady-liljemark' },
       { nombre: 'Daniel Pastene', foto: 'daniel-pastene' },
-      { nombre: 'Paula Sanza', foto: 'paula-sanza' },
+      { nombre: 'Andrés Amengual', foto: 'andres-amengual' },
       { nombre: 'Daniel Seeliger', foto: 'daniel-seeliger' },
       { nombre: 'Silvina Verdún', foto: 'silvina-verdun' },
     ],
