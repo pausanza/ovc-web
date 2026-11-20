@@ -694,8 +694,8 @@ export const contenido: Contenido = {
       label: 'Santuario de la Naturaleza',
       texto: 'El mayor logro de todos: desde 2023, 11.432,8 hectáreas del valle están protegidas por decreto.',
       href: `${PORTADA}/santuario`,
-      imagen: 'conservacionLienzos',
-      alt: 'Lienzos de la comunidad en el acceso al valle pidiendo más áreas protegidas',
+      imagen: 'santuarioBosque',
+      alt: 'Bosque de alerces y coihues frente a las cumbres de granito del valle bajo un cielo nublado',
     },
     {
       icono: 'edificio',

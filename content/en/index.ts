@@ -703,8 +703,8 @@ export const contenido: Contenido = {
       label: 'Nature Sanctuary',
       texto: 'The biggest of them all: since 2023, 11,432.8 hectares of the valley are protected by decree.',
       href: `${PORTADA}/santuario`,
-      imagen: 'conservacionLienzos',
-      alt: 'Community banners at the entrance to the valley calling for more protected areas',
+      imagen: 'santuarioBosque',
+      alt: 'Alerce and coihue forest in front of the valley’s granite peaks under a cloudy sky',
     },
     {
       icono: 'edificio',
