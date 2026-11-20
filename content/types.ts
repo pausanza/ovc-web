@@ -417,9 +417,11 @@ export interface Contenido {
   hitos: Hito[]
   nosotros: Encabezado & {
     parrafos: string[]
-    foto: Foto
-    pieFoto: string
-    directorio: string[]
+    tituloDirectiva: string
+    tituloEquipo: string
+    /** `foto` es el nombre del archivo en public/img/equipo, sin extensión. */
+    directiva: { nombre: string; cargo: string; foto: string }[]
+    equipo: { nombre: string; foto: string }[]
   }
   sectoresEncabezado: Encabezado
   sectores: Sector[]
