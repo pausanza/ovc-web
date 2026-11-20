@@ -278,7 +278,7 @@ export const contenido: Contenido = {
       { nombre: 'Nancy González Valle', cargo: 'Vicepresidenta', foto: 'nancy-gonzalez-valle' },
       { nombre: 'Juan Catón', cargo: 'Tesorero', foto: 'juan-caton' },
       { nombre: 'Patricia Almonacid', cargo: 'Secretaria', foto: 'patricia-almonacid' },
-      { nombre: 'Brady Liljemark', cargo: 'Director', foto: 'brady-liljemark' },
+      { nombre: 'Leopoldo Muñoz', cargo: 'Director', foto: 'leopoldo-munoz' },
     ],
     equipo: [
       { nombre: 'Patricio Almonacid', foto: 'patricio-almonacid' },
@@ -291,7 +291,7 @@ export const contenido: Contenido = {
       { nombre: 'Nina Dey', foto: 'nina-dey' },
       { nombre: 'Pavel Drabina', foto: 'pavel-drabina' },
       { nombre: 'Cristian Gallardo', foto: 'cristian-gallardo' },
-      { nombre: 'Leopoldo Muñoz', foto: 'leopoldo-munoz' },
+      { nombre: 'Brady Liljemark', foto: 'brady-liljemark' },
       { nombre: 'Daniel Pastene', foto: 'daniel-pastene' },
       { nombre: 'Paula Sanza', foto: 'paula-sanza' },
       { nombre: 'Daniel Seeliger', foto: 'daniel-seeliger' },
