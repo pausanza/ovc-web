@@ -686,7 +686,7 @@ export const contenido: Contenido = {
   },
 
   logrosEncabezado: { eyebrow: 'Lo que hemos logrado', titulo: 'Obras que ya están en el valle' },
-  logrosPortadaTitulo: 'Otros proyectos realizados',
+  logrosPortadaTitulo: 'Proyectos realizados',
 
   logros: [
     {

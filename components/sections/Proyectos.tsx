@@ -5,13 +5,13 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { getContenido, imagenes, type Lang } from '@/content'
 
 export function Proyectos({ lang, modo }: { lang: Lang; modo: 'desafios' | 'logros' | 'portada' }) {
-  const { introProyectos, llamadoProyectos, logroImportante, logros, logrosEncabezado, logrosPortadaTitulo, proyectos, textos } =
+  const { introProyectos, llamadoProyectos, logros, logrosEncabezado, logrosPortadaTitulo, proyectos, textos } =
     getContenido(lang)
 
   /*
    * En la portada las obras van en una fila que se desliza, montada a medias
-   * sobre la franja verde. El santuario no entra: ya tiene su tarjeta propia
-   * justo arriba, en Impacto, y por eso el título habla de "otros" proyectos.
+   * sobre la franja verde. Van todas, también el santuario, igual que en
+   * «Lo que hemos logrado» de Historia.
    */
   if (modo === 'portada') {
     return (
@@ -21,7 +21,6 @@ export function Proyectos({ lang, modo }: { lang: Lang; modo: 'desafios' | 'logr
 
           <Carrusel anterior={textos.anterior} siguiente={textos.siguiente}>
             {logros
-              .filter((logro) => logro.href !== logroImportante.cta.href)
               .map((logro) => {
                 const foto = imagenes[logro.imagen]
                 return (
