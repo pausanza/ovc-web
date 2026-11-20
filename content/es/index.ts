@@ -121,7 +121,7 @@ export const contenido: Contenido = {
       href: `${PORTADA}/historia`,
       items: [
         { label: 'Línea de tiempo', href: `${PORTADA}/historia#historia`, detalle: 'De 2016 a hoy' },
-        { label: 'Quién administra y por qué', href: `${PORTADA}/historia#nosotros`, detalle: 'La comunidad del valle' },
+        { label: 'Quiénes somos', href: `${PORTADA}/historia#nosotros`, detalle: 'La comunidad del valle' },
         { label: 'Misión y visión', href: `${PORTADA}/historia#mision`, detalle: 'Hacia dónde vamos' },
         { label: 'Qué hemos hecho', href: `${PORTADA}/historia#logros`, detalle: 'Obras terminadas' },
         { label: 'Qué queremos hacer', href: `${PORTADA}/historia#proyectos`, detalle: 'Los desafíos abiertos' },

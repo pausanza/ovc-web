@@ -130,7 +130,7 @@ export const contenido: Contenido = {
       href: `${PORTADA}/historia`,
       items: [
         { label: 'Timeline', href: `${PORTADA}/historia#historia`, detalle: 'From 2016 to today' },
-        { label: 'Who runs it and why', href: `${PORTADA}/historia#nosotros`, detalle: 'The valley community' },
+        { label: 'Who we are', href: `${PORTADA}/historia#nosotros`, detalle: 'The valley community' },
         { label: 'Mission and vision', href: `${PORTADA}/historia#mision`, detalle: 'Where we are heading' },
         { label: 'What we have done', href: `${PORTADA}/historia#logros`, detalle: 'Completed work' },
         { label: 'What we want to do', href: `${PORTADA}/historia#proyectos`, detalle: 'The open challenges' },
