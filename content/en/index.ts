@@ -275,10 +275,11 @@ export const contenido: Contenido = {
     eyebrow: 'Who we are',
     titulo: 'Neighbours, muleteers, landowners and friends of the valley',
     bajada:
-      'We are a non-profit, cross-cutting community organisation working for responsible tourism and land-use planning in the Cochamó Valley.',
+      'We are Corporación Valle Cochamó, the first organisation born from the community itself to take charge of caring for the valley. We are cross-cutting and non-profit, and we work for responsible tourism and land-use planning in the Cochamó Valley.',
     parrafos: [
-      'The valley is a patchwork of mostly private land, linked by a trail that Andean muleteers have used for generations. Today that same trail is shared by more than 17,000 visitors a year. That is why tour operators, landowners and people who love the valley began working towards a **collaborative protected area**: a model where those who live and work here remain the ones who manage it.',
-      'We are driven by our affection for this place and by concern over the environmental effects of growing visitor numbers. We safeguard traditional ways of life, local culture and identity, and we want the valley’s natural and cultural heritage to reach the next generations intact.',
+      'We know this valley has enormous tourism potential. Even so, as a community we chose a different path: minimum-impact tourism that never exceeds 15,000 people per season. We do not want to grow without limits. We want Cochamó to stay as pristine as possible.',
+      'The valley is made up mostly of private land, linked by a trail that muleteers have travelled for generations. That is why tour operators, landowners and people who love the valley came together to push for a **collaborative protected area**, where those who live and work here remain the ones who manage it. That work gave rise to the Valle Cochamó Nature Sanctuary, declared in 2023.',
+      'We are driven by our love for this place. We care for traditional ways of life, culture and local identity, so that the valley’s natural and cultural heritage reaches future generations intact.',
     ],
     tituloDirectiva: 'The Board',
     tituloEquipo: 'Working group',

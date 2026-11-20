@@ -266,10 +266,11 @@ export const contenido: Contenido = {
     eyebrow: 'Quiénes somos',
     titulo: 'Vecinos, arrieros, propietarios y amigos del valle',
     bajada:
-      'Somos una organización comunitaria y transversal, sin fines de lucro, que trabaja por el turismo responsable y el ordenamiento territorial del Valle Cochamó.',
+      'Somos la Corporación Valle Cochamó, la primera organización que nació de la propia comunidad para hacerse cargo del cuidado del valle. Somos transversales, sin fines de lucro, y trabajamos por un turismo responsable y por el ordenamiento territorial del Valle Cochamó.',
     parrafos: [
-      'El valle es un conjunto de tierras mayoritariamente privadas, unidas por un sendero que los arrieros andinos han usado durante generaciones. Hoy ese mismo sendero lo comparten más de 17.000 visitantes al año. Por eso operadores turísticos, propietarios y amantes del valle empezamos a trabajar en un **área protegida colaborativa**: un modelo donde quienes viven y trabajan aquí siguen siendo quienes lo administran.',
-      'Nos mueve el cariño por este lugar y la preocupación por los efectos ambientales del aumento de visitantes. Resguardamos los estilos de vida tradicionales, la cultura y la identidad local, y buscamos que el patrimonio natural y cultural del valle llegue entero a las próximas generaciones.',
+      'Sabemos que este valle tiene un potencial turístico enorme. Aun así, como comunidad elegimos otro camino: un turismo de mínimo impacto, sin sobrepasar las 15.000 personas por temporada. No queremos crecer sin límite. Queremos que Cochamó se mantenga lo más prístino posible.',
+      'El valle está formado en su mayoría por tierras privadas, unidas por un sendero que los arrieros han recorrido durante generaciones. Por eso, operadores turísticos, propietarios y amantes del valle nos unimos para impulsar un **área protegida colaborativa**, en la que quienes viven y trabajan aquí siguen siendo quienes la administran. Ese trabajo dio vida al Santuario de la Naturaleza Valle Cochamó, declarado en 2023.',
+      'Nos mueve el amor por este lugar. Cuidamos los modos de vida tradicionales, la cultura y la identidad local, para que el patrimonio natural y cultural del valle llegue intacto a las próximas generaciones.',
     ],
     tituloDirectiva: 'La Directiva',
     tituloEquipo: 'Grupo de trabajo',
