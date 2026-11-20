@@ -556,8 +556,8 @@ export const santuarioPagina: PaginaLarga = {
   titulo: 'Valle Cochamó Nature Sanctuary',
   bajada: 'A cultural and natural treasure',
   foto: {
-    imagen: 'conservacionLienzos',
-    alt: 'Community banners at the entrance to the valley calling for more protected areas',
+    imagen: 'santuarioBosque',
+    alt: 'Alerce and coihue forest in front of the valley’s granite peaks under a cloudy sky',
   },
   intro: [
     'For more than a decade the Cochamó Valley was looked after with no legal status behind it. Its land is partly state-owned and partly private, and access was opened on a simple principle: come in aware that this is not a park.',

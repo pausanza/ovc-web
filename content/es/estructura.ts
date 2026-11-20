@@ -575,8 +575,8 @@ export const santuarioPagina: PaginaLarga = {
   titulo: 'Santuario de la Naturaleza Valle Cochamó',
   bajada: 'Un tesoro cultural y natural',
   foto: {
-    imagen: 'conservacionLienzos',
-    alt: 'Lienzos de la comunidad en el acceso al valle pidiendo más áreas protegidas',
+    imagen: 'santuarioBosque',
+    alt: 'Bosque de alerces y coihues frente a las cumbres de granito del valle bajo un cielo nublado',
   },
   intro: [
     'Durante más de una década, el Valle Cochamó se cuidó sin ninguna figura legal que lo respaldara. Sus terrenos son fiscales y privados, y el acceso se abrió bajo un principio simple: entrar con conciencia de que se visita un lugar que no es un parque.',

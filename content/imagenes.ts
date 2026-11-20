@@ -27,6 +27,7 @@ export const imagenes = {
   valleBanner: { src: '/img/valle-banner.jpg', width: 2000, height: 1331 },
   bosqueDosel: { src: '/img/bosque-dosel.jpg', width: 1000, height: 1500 },
   granitoParedes: { src: '/img/granito-cumbres.jpg', width: 1800, height: 1296 },
+  santuarioBosque: { src: '/img/santuario-bosque.jpg', width: 1560, height: 1170 },
   conservacionLienzos: { src: '/img/conservacion-lienzos.jpg', width: 2000, height: 1137 },
   actSenderismo: { src: '/img/act-senderismo.jpg', width: 1500, height: 998 },
   actEscalada: { src: '/img/act-escalada.jpg', width: 1111, height: 833 },
