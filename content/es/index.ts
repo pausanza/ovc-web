@@ -175,9 +175,9 @@ export const contenido: Contenido = {
   ],
 
   hero: {
-    titulo: ['Valle Cochamó:', 'su gente lo cuida.', 'Súmate tú también'],
+    titulo: ['Valle Cochamó:', 'protegido por su gente'],
     bajada:
-      'Un valle de naturaleza extraordinaria, historia y comunidad. Conoce el trabajo que la comunidad local hace para cuidar este territorio y descubre cómo visitarlo de manera responsable.',
+      'La comunidad local decidió proteger este paraíso natural para que las nuevas generaciones lo conozcan tal como lo vimos nosotros. Hoy te invitamos a sumarte.',
     visitar: { label: 'Planifica tu visita', href: `${PORTADA}/como-visitar` },
     conocer: { label: 'Conoce el valle', href: `${PORTADA}#el-valle` },
     alt: 'Las cascadas de los Toboganes cayendo sobre granito pulido hasta una poza turquesa, rodeadas de bosque nativo y con una cumbre de granito al fondo',
