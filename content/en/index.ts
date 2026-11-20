@@ -184,9 +184,9 @@ export const contenido: Contenido = {
   ],
 
   hero: {
-    titulo: ['Cochamó Valley, a story', 'we are still building'],
+    titulo: ['Cochamó Valley:', 'cared for by its people.', 'Join them'],
     bajada:
-      'A valley of extraordinary nature, history and community. Learn about the work we do to look after this land and find out how to visit it responsibly.',
+      'A valley of extraordinary nature, history and community. Learn about the work the local community does to look after this land and find out how to visit it responsibly.',
     visitar: { label: 'Plan your visit', href: `${PORTADA}/como-visitar` },
     conocer: { label: 'Explore the valley', href: `${PORTADA}#el-valle` },
     alt: 'The Toboganes waterfalls flowing over polished granite into a turquoise pool, surrounded by native forest with a granite peak behind',
