@@ -579,8 +579,7 @@ export const santuarioPagina: PaginaLarga = {
     alt: 'Bosque de alerces y coihues frente a las cumbres de granito del valle bajo un cielo nublado',
   },
   intro: [
-    'Durante más de una década, el Valle Cochamó se cuidó sin ninguna figura legal que lo respaldara. Sus terrenos son fiscales y privados, y el acceso se abrió bajo un principio simple: entrar con conciencia de que se visita un lugar que no es un parque.',
-    'Desde 2023 el valle es Santuario de la Naturaleza. Es el reconocimiento que la comunidad buscó durante años, y la figura que permite que quienes viven y trabajan aquí sigan administrándolo.',
+    'Mucho antes de contar con una figura legal de protección, el Valle Cochamó ya era cuidado por su comunidad. Durante años, vecinos y organizaciones han trabajado por conservar su naturaleza, gestionar las visitas y resguardar la identidad y las formas de vida del territorio. Hoy, con el reconocimiento del Santuario de la Naturaleza, ese compromiso continúa y adquiere nuevos desafíos.',
   ],
   cifras: [
     { valor: '11.432,8 ha', texto: 'de superficie protegida' },

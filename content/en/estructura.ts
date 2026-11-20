@@ -560,8 +560,7 @@ export const santuarioPagina: PaginaLarga = {
     alt: 'Alerce and coihue forest in front of the valley’s granite peaks under a cloudy sky',
   },
   intro: [
-    'For more than a decade the Cochamó Valley was looked after with no legal status behind it. Its land is partly state-owned and partly private, and access was opened on a simple principle: come in aware that this is not a park.',
-    'Since 2023 the valley has been a Nature Sanctuary. It is the recognition the community sought for years, and the status that lets the people who live and work here go on running it.',
+    'Long before it had any legal protection, the Cochamó Valley was already cared for by its community. For years, neighbours and organisations have worked to conserve its nature, manage visits and safeguard the identity and ways of life of the territory. Today, with its recognition as a Nature Sanctuary, that commitment continues and takes on new challenges.',
   ],
   cifras: [
     { valor: '11,432.8 ha', texto: 'of protected land' },
