@@ -41,6 +41,8 @@ export default async function PaginaSantuario({ params }: PageProps<'/[lang]/san
         intro={[santuarioPagina.bajada]}
         foto={imagenes[santuarioPagina.foto.imagen]}
         alt={santuarioPagina.foto.alt}
+        fotoPosicion="50% 40%"
+        alta
       />
       <PaginaTexto pagina={santuarioPagina} />
     </>

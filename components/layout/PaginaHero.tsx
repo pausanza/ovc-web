@@ -18,6 +18,7 @@ export function PaginaHero({
   foto,
   alt,
   fotoPosicion,
+  alta = false,
   children,
 }: {
   lang: Lang
@@ -29,13 +30,15 @@ export function PaginaHero({
   alt?: string
   /** Qué parte de la foto se conserva al recortar (object-position), si el centro corta caras. */
   fotoPosicion?: string
+  /** Encabezado más alto y velo más suave, para fotos de paisaje que tienen que lucirse. */
+  alta?: boolean
   /** Botones, si la página los lleva. */
   children?: ReactNode
 }) {
   const { textos } = getContenido(lang)
 
   return (
-    <section className={foto ? 'pagina-hero pagina-hero--foto' : 'pagina-hero'}>
+    <section className={foto ? `pagina-hero pagina-hero--foto${alta ? ' pagina-hero--alta' : ''}` : 'pagina-hero'}>
       {foto && (
         <>
           <div className="pagina-hero__media">
