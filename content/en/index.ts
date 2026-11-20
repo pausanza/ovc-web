@@ -202,7 +202,7 @@ export const contenido: Contenido = {
   cifras: [
     { valor: 11432, sufijo: '.8 ha', texto: 'Protected as a Nature Sanctuary' },
     { valor: 8000, sufijo: ' ha', texto: 'Of alerce forest, with trees close to 1,000 years old' },
-    { valor: 17000, prefijo: '+', texto: 'Visitors a year walk the muleteers’ trail' },
+    { valor: 15000, prefijo: '-', texto: 'Visitors a year at most. For us, caring for the place comes first: we set strict carrying capacities.' },
     { valor: 1000, sufijo: ' m', texto: 'Of granite walls of the North Patagonian Batholith' },
   ],
 
