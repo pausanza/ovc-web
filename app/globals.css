@@ -999,8 +999,14 @@ p { text-wrap: pretty; }
   .marca__logo { width: 42px; }
   .marca__nombre { font-size: 1.1rem; }
   .marca__corporacion { font-size: .6rem; letter-spacing: .18em; }
-  .hero__acciones .btn { flex: 1 1 100%; }
   .protege { grid-template-columns: 1fr; }
+  /* En el celular la portada ocupa la pantalla entera con el texto arriba, y
+     los botones van lado a lado y más bajos: así las cascadas de la foto
+     quedan a la vista debajo, en vez de tapadas por los botones. */
+  .hero { min-height: 100svh; align-items: flex-start; padding-top: calc(var(--header-h) + 20px); }
+  .hero__media img { object-position: 55% 50%; }
+  .hero__acciones { flex-wrap: nowrap; gap: 10px; margin-top: 26px; }
+  .hero__acciones .btn { flex: 1 1 0; padding: 11px 12px; font-size: .9rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2820,6 +2826,8 @@ body:has(:is(.hero, .pagina-hero, .sector-hero)) .cabecera:not(.esta-fija) { bac
 .seccion--valle .rasgos__cta {
   margin-top: 0;
   padding-top: 72px;
+  /* Aire bajo el botón: si no, quedaba pegado a la sección siguiente. */
+  padding-bottom: clamp(48px, 7vw, 72px);
   border-image: linear-gradient(var(--bosque-900) 0 0) fill 0 // 0 100vmax;
 }
 
