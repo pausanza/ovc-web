@@ -690,25 +690,27 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     slug: 'centro-de-visitantes',
     eyebrow: 'What we have achieved',
     titulo: 'Visitor Centre',
-    bajada: 'Where everything else begins',
+    bajada: 'Where it all begins',
     foto: {
       imagen: 'logroCentroVisitantes',
       alt: 'Visitors registering at the valley’s Visitor Centre',
     },
     intro: [
-      'The Visitor Centre has been running since 2017, operated by the organisation. It was born as an answer to tourism growing without regulation and starting to leave marks: waste piling up, eroded trails, damage to flora and fauna, accidents, polluted water and fire risk.',
-      'Today it is where everyone registers before heading up, where questions get answered, and how the valley knows how many people are inside it.',
+      'The Visitor Centre was born in 2017, out of love for the Cochamó Valley.',
+      'It was created by the Valle Cochamó organisation when tourism was growing without order and starting to leave its mark: litter, damaged trails, polluted water and risks for flora, fauna and people.',
+      'Today it is the gateway to a historic trail. Here every visitor is welcomed, informed and registered, to look after them and to look after the valley.',
+      'It is also a place to learn: recycling and good practices are encouraged here, so that everyone who comes in leaves as one more of those who protect this place.',
     ],
     cifras: [
-      { valor: '+12,000', texto: 'visitors attended each season' },
-      { valor: 'Dec — Mar', texto: 'the months it is open today' },
+      { valor: '-15,000', texto: 'visitors at most each season' },
+      { valor: 'Dec — Apr', texto: 'the months it is open' },
       { valor: '2017', texto: 'the year it started' },
     ],
     bloques: [
       {
-        titulo: 'Why we want it open all year',
+        titulo: 'Why we want it to run all year',
         parrafos: [
-          'Four months of operation force a whole year of work into a single season. Keeping it open would allow us to:',
+          'Five months of operation force a whole year of work into a single season. Keeping it running would allow us to:',
         ],
         lista: [
           'Protect the natural heritage and its ecosystems continuously.',

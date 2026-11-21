@@ -709,25 +709,27 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     slug: 'centro-de-visitantes',
     eyebrow: 'Lo que hemos logrado',
     titulo: 'Centro de Visitantes',
-    bajada: 'El punto donde empieza todo lo demás',
+    bajada: 'El punto donde todo comienza',
     foto: {
       imagen: 'logroCentroVisitantes',
       alt: 'Visitantes registrándose en el Centro de Visitantes del valle',
     },
     intro: [
-      'El Centro de Visitantes funciona desde 2017, operado por la organización. Nació como respuesta a un turismo que crecía sin regulación y que empezaba a dejar marcas: basura acumulada, senderos erosionados, daño a la flora y la fauna, accidentes, aguas contaminadas y riesgo de incendios.',
-      'Hoy es donde se registra todo el mundo antes de subir, donde se resuelven dudas y donde el valle sabe cuánta gente tiene dentro.',
+      'El Centro de Visitantes nació en 2017, desde el amor por el Valle Cochamó.',
+      'Fue creado por la organización Valle Cochamó cuando el turismo crecía sin orden y empezaba a dejar huellas: basura, senderos dañados, aguas contaminadas y riesgos para la flora, la fauna y las personas.',
+      'Hoy es la puerta de entrada hacia un sendero histórico. En este lugar se recibe, se informa y se registra a cada visitante, para cuidarlos y cuidar el valle.',
+      'También es un lugar para aprender: allí se incentiva el reciclaje y las buenas prácticas, para que cada persona que entre salga siendo una más de quienes protegen este lugar.',
     ],
     cifras: [
-      { valor: '+12.000', texto: 'visitantes atendidos cada temporada' },
-      { valor: 'Dic — Mar', texto: 'los meses que está abierto hoy' },
+      { valor: '-15.000', texto: 'visitantes como máximo en cada temporada' },
+      { valor: 'Dic — Abr', texto: 'los meses que está abierto' },
       { valor: '2017', texto: 'el año en que empezó a funcionar' },
     ],
     bloques: [
       {
-        titulo: 'Por qué queremos abrirlo todo el año',
+        titulo: 'Por qué queremos que funcione todo el año',
         parrafos: [
-          'Cuatro meses de operación obligan a concentrar en una temporada un trabajo que el valle necesita durante todo el año. Mantenerlo abierto permitiría:',
+          'Cinco meses de operación obligan a concentrar en una temporada un trabajo que el valle necesita durante todo el año. Mantener su funcionamiento permitiría:',
         ],
         lista: [
           'Proteger el patrimonio natural y sus ecosistemas de forma continua.',
