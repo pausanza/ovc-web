@@ -95,7 +95,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     intro:
       'Where the Cochamó and La Junta rivers meet. Open meadows, granite walls and the base from which almost everything in the valley starts.',
     parrafos: [
-      'The La Junta sector has wide meadows that open up a broad view of the Cochamó Valley. That is what has made it one of the hubs of adventure tourism in the Los Lagos Region: more than 16,000 people arrive each season to take in the granite walls rising above the old forests.',
+      'The La Junta sector has wide meadows that open up a broad view of the Cochamó Valley. That is what has made it one of the hubs of adventure tourism in the Los Lagos Region: up to 15,000 people arrive each season to take in the granite walls rising above the old forests.',
       'From here you can walk more than 40 km of trails and climb more than 100 routes on the granite walls. You can also swim in clear water, rest on the stony riverbanks or simply lie down in the meadow and take in the scene.',
       'All around there are thousand-year-old alerce forests, huge coihues and mañíos, climbing plants, fungi and mosses, and animals such as the monito del monte and the puma. From this balcony you can also read the work of the last glaciation: glaciers carved rock formed millions of years ago, leaving these grey walls with flat valley floors.',
       'La Junta is a human landscape too: the Historic Cochamó Road runs through it, still connecting the Reloncaví estuary with the Argentine pampa. From the late nineteenth century settlers crossed the forests and opened up a well-travelled path, once for the cattle trade and today for tourism.',

@@ -192,7 +192,7 @@ export const contenido: Contenido = {
   },
   cifras: [
     { valor: 11432, sufijo: ',8 ha', texto: 'Protegidas como Santuario de la Naturaleza' },
-    { valor: 8000, sufijo: ' ha', texto: 'De bosque de alerce, con ejemplares de cerca de 1.000 años' },
+    { valor: 1800, sufijo: ' ha', texto: 'De bosque de alerce, con ejemplares de cerca de 1.000 años' },
     { valor: 15000, prefijo: '-', texto: 'Visitantes al año como máximo. Para nosotros, primero está el cuidado del lugar: tenemos capacidades de carga restrictivas.' },
     { valor: 1000, sufijo: ' m', texto: 'De paredes de granito del Batolito Norpatagónico' },
   ],

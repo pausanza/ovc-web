@@ -30,7 +30,7 @@ export const rasgos: Rasgo[] = [
   {
     icono: 'hoja',
     titulo: 'Native forest',
-    texto: 'Close to 8,000 hectares of alerce stands with trees around a thousand years old.',
+    texto: 'Close to 1,800 hectares of alerce stands with trees around a thousand years old.',
     imagen: 'alerce',
     alt: 'The trunk of an ancient alerce seen from below, rising through the forest canopy towards the sky',
   },

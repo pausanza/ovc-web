@@ -31,7 +31,7 @@ export const rasgos: Rasgo[] = [
   {
     icono: 'hoja',
     titulo: 'Bosque nativo',
-    texto: 'Cerca de 8.000 hectáreas de alerzales con ejemplares de unos mil años.',
+    texto: 'Cerca de 1.800 hectáreas de alerzales con ejemplares de unos mil años.',
     imagen: 'alerce',
     alt: 'Tronco de un alerce milenario visto desde abajo, elevándose entre las copas del bosque hacia el cielo',
   },
