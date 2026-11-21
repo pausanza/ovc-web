@@ -1006,6 +1006,11 @@ p { text-wrap: pretty; }
   .hero { min-height: 100svh; align-items: flex-start; padding-top: calc(var(--header-h) + 20px); }
   .hero__media img { object-position: 55% 50%; }
   .hero__acciones { flex-wrap: nowrap; gap: 10px; margin-top: 26px; }
+  /* Los saltos del título están pensados para el computador; en el celular
+     se ignoran y el navegador reparte las líneas parejas. */
+  .hero h1 { text-wrap: balance; }
+  .hero h1 br { display: none; }
+  .hero h1 span:not(:last-child)::after { content: ' '; }
   .hero__acciones .btn { flex: 1 1 0; padding: 11px 12px; font-size: .9rem; }
 }
 

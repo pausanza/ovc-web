@@ -175,7 +175,7 @@ export const contenido: Contenido = {
   ],
 
   hero: {
-    titulo: ['Valle Cochamó:', 'un lugar protegido', 'por su gente'],
+    titulo: ['Valle Cochamó: un lugar', 'protegido por su gente'],
     bajada:
       'La comunidad local decidió proteger este paraíso natural para que las nuevas generaciones lo conozcan tal como lo vimos nosotros. Hoy te invitamos a sumarte.',
     visitar: { label: 'Planifica tu visita', href: `${PORTADA}/como-visitar` },

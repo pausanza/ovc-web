@@ -184,7 +184,7 @@ export const contenido: Contenido = {
   ],
 
   hero: {
-    titulo: ['Cochamó Valley:', 'a place protected', 'by its people'],
+    titulo: ['Cochamó Valley: a place', 'protected by its people'],
     bajada:
       'The local community chose to protect this natural paradise so that new generations can know it just as we did. Today we invite you to join us.',
     visitar: { label: 'Plan your visit', href: `${PORTADA}/como-visitar` },
