@@ -741,8 +741,8 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       {
         titulo: 'Las mejoras con Mammut y Andes Gear',
         parrafos: [
-          'Desde 2018, el apoyo de Mammut y Andes Gear permitió remodelar el contenedor y equiparlo para que el trabajo deje de depender de la improvisación.',
-          'La comunicación con voluntarios, campings, Carabineros y arrieros cambió por completo, y con ella la velocidad con que se atiende una emergencia.',
+          'Desde 2018, gracias al apoyo de Mammut y Andes Gear, se pudo remodelar el contenedor y equiparlo para que el trabajo dejara de depender de la improvisación.',
+          'La poca comunicación que existía en ese entonces en el lugar cambió por completo, facilitando el contacto entre el Centro de Visitantes, los campings, Carabineros y los arrieros. Hoy existe un mayor rango de respuesta ante una emergencia, y un trabajo en red que permite cuidar mejor a las personas y al valle.',
         ],
         lista: [
           'Una radio base y tres radios portátiles nuevas.',
@@ -752,11 +752,14 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       },
       {
         titulo: 'Lo que resuelve en el día a día',
+        parrafos: ['Hoy se convocan voluntarios y practicantes para apoyar su funcionamiento. Ellos realizan labores como:'],
         lista: [
-          'Auxiliar a quien se perdió o se accidentó en el sendero.',
-          'Avisar de basura abandonada para que alguien la baje.',
-          'Informar cada día cuánta capacidad queda en los campings.',
-          'Resolver dudas sobre reservas antes de que alguien suba sin cupo.',
+          'Apoyar la gestión de incidentes y accidentes.',
+          'Limpiar y recoger la basura abandonada en el sendero.',
+          'Informar cada día cuántos visitantes subieron a los campings, para monitorear su llegada.',
+          'Asegurar el cumplimiento de horarios, aforo y reservas.',
+          'Incentivar buenas prácticas en ambientes naturales.',
+          'Gestionar el punto limpio.',
         ],
       },
     ],

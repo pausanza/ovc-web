@@ -722,8 +722,8 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       {
         titulo: 'The improvements with Mammut and Andes Gear',
         parrafos: [
-          'Since 2018, support from Mammut and Andes Gear has made it possible to refit the container and equip it so the work no longer depends on improvisation.',
-          'Communication with volunteers, campsites, Carabineros and arrieros changed completely, and with it the speed at which an emergency is handled.',
+          'Since 2018, thanks to support from Mammut and Andes Gear, it has been possible to refit the container and equip it so the work no longer depended on improvisation.',
+          'The little communication there was at the time changed completely, making contact easier between the Visitor Centre, the campsites, Carabineros and the arrieros. Today there is a wider capacity to respond to an emergency, and a network that helps take better care of people and the valley.',
         ],
         lista: [
           'A base radio and three new handheld radios.',
@@ -733,11 +733,14 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       },
       {
         titulo: 'What it solves day to day',
+        parrafos: ['Today volunteers and interns are brought in to help run it. Their work includes:'],
         lista: [
-          'Helping anyone lost or injured on the trail.',
-          'Reporting abandoned waste so someone can carry it down.',
-          'Reporting each day how much capacity the campsites have left.',
-          'Answering booking questions before someone heads up with no place.',
+          'Supporting the handling of incidents and accidents.',
+          'Cleaning up and collecting waste left on the trail.',
+          'Reporting each day how many visitors went up to the campsites, to monitor arrivals.',
+          'Making sure opening hours, capacity limits and bookings are respected.',
+          'Encouraging good practices in natural environments.',
+          'Running the recycling point.',
         ],
       },
     ],
