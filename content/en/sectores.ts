@@ -29,14 +29,14 @@ export const sectoresDetalle: SectorDetalle[] = [
     alojamientos: [
       {
         id: 'la-frontera',
-        nombre: 'La Frontera Valle Cochamó: hostel, campsite and cabin',
-        tipo: 'Hostel, campsite and cabin',
+        nombre: 'La Frontera Valle Cochamó: hostel, campsite and glamping',
+        tipo: 'Hostel, campsite and glamping',
         descripcion:
-          'On the bank of the Cochamó river, surrounded by native forest, 8 km from the village and 500 metres from the start of the trail. Three ways to stay in the same place: rooms with a Patagonian breakfast, camping pitches, and a small cabin in the forest where you bring your sleeping bag and they provide the firewood.',
+          'On the bank of the Cochamó river, surrounded by native forest, 8 km from the village and 500 metres from the start of the trail. Three ways to stay in the same place: rooms with private bathroom, camping and glamping.',
         servicios: [
           'Rooms with private bathroom',
           'Camping pitches',
-          'Cabin with firewood included',
+          'Glamping',
           'Hot shower',
           'River access',
           'Free parking',

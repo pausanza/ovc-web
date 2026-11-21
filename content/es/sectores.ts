@@ -36,14 +36,14 @@ export const sectoresDetalle: SectorDetalle[] = [
     alojamientos: [
       {
         id: 'la-frontera',
-        nombre: 'La Frontera Valle Cochamó: Hostal, Camping y Cabañita',
-        tipo: 'Hostal, camping y cabaña',
+        nombre: 'La Frontera Valle Cochamó: Hostal, Camping y Glamping',
+        tipo: 'Hostal, camping y glamping',
         descripcion:
-          'A orillas del río Cochamó y rodeado de bosque nativo, a 8 km del pueblo y a 500 metros del inicio del sendero. Son tres formas de quedarse en el mismo lugar: habitaciones con desayuno patagónico, sitios de camping, y una cabañita en el bosque donde llevas tu saco y ellos ponen la leña.',
+          'A orillas del río Cochamó y rodeado de bosque nativo, a 8 km del pueblo y a 500 metros del inicio del sendero. Son tres formas de quedarse en el mismo lugar: habitaciones con baño privado, camping y glamping.',
         servicios: [
           'Habitaciones con baño privado',
           'Sitios de camping',
-          'Cabaña con leña incluida',
+          'Glamping',
           'Ducha con agua caliente',
           'Acceso al río',
           'Estacionamiento gratis',
