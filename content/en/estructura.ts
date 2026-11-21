@@ -306,7 +306,7 @@ export const destinoAportes = {
   items: [
     {
       icono: 'edificio' as const,
-      dato: '-15,000',
+      dato: '15,000',
       titulo: 'Visitors at most each season',
       texto:
         'The Visitor Centre runs from December to April: it informs, registers people in and out, and coordinates with the campsites, the muleteers and the police whenever someone is lost or injured.',
@@ -723,7 +723,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       'It is also a place to learn: recycling and good practices are encouraged here, so that everyone who comes in leaves as one more of those who protect this place.',
     ],
     cifras: [
-      { valor: '-15,000', texto: 'visitors at most each season' },
+      { valor: '15,000', texto: 'visitors at most each season' },
       { valor: 'Dec — Apr', texto: 'the months it is open' },
       { valor: '2017', texto: 'the year it started' },
     ],

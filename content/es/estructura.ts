@@ -310,7 +310,7 @@ export const destinoAportes = {
   items: [
     {
       icono: 'edificio' as const,
-      dato: '-15.000',
+      dato: '15.000',
       titulo: 'Visitantes como máximo cada temporada',
       texto:
         'El Centro de Visitantes funciona entre diciembre y abril: informa, registra entradas y salidas, y coordina con los campings, los arrieros y Carabineros cuando hay alguien perdido o accidentado.',
@@ -742,7 +742,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       'También es un lugar para aprender: allí se incentiva el reciclaje y las buenas prácticas, para que cada persona que entre salga siendo una más de quienes protegen este lugar.',
     ],
     cifras: [
-      { valor: '-15.000', texto: 'visitantes como máximo en cada temporada' },
+      { valor: '15.000', texto: 'visitantes como máximo en cada temporada' },
       { valor: 'Dic — Abr', texto: 'los meses que está abierto' },
       { valor: '2017', texto: 'el año en que empezó a funcionar' },
     ],
