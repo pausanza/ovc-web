@@ -285,10 +285,10 @@ export const destinoAportes = {
   items: [
     {
       icono: 'edificio' as const,
-      dato: '+12,000',
-      titulo: 'Visitors received each season',
+      dato: '-15,000',
+      titulo: 'Visitors at most each season',
       texto:
-        'The Visitor Centre runs from December to March: it informs, registers people in and out, and coordinates with the campsites, the muleteers and the police whenever someone is lost or injured.',
+        'The Visitor Centre runs from December to April: it informs, registers people in and out, and coordinates with the campsites, the muleteers and the police whenever someone is lost or injured.',
     },
     {
       icono: 'sendero' as const,

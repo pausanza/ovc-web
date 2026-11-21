@@ -18,7 +18,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     parrafos: [
       'El inicio del Valle Cochamó se ubica donde el río Cochamó desemboca en el mar, en la intersección de la carretera principal con el camino de ripio. Desde el puente tienes una vista al río con su agua cristalina, al imponente cerro Arcoíris y al bosque nativo que caracteriza a todo el valle.',
       'Entras por el camino de ripio y recorres 6 kilómetros hasta el final, donde encuentras estacionamientos, campings y el Centro de Visitantes del Valle Cochamó.',
-      'El Centro de Visitantes lo creó y lo administra la Organización Valle Cochamó desde 2017, como respuesta al aumento del turismo no regulado. Entre diciembre y marzo recibe a más de 12.000 visitantes: orienta, registra, monitorea el valle y coordina con los campings, los arrieros y Carabineros cuando hay una persona perdida o accidentada.',
+      'El Centro de Visitantes lo creó y lo administra la Organización Valle Cochamó desde 2017, como respuesta al aumento del turismo no regulado. Entre diciembre y abril recibe hasta 15.000 visitantes: orienta, registra, monitorea el valle y coordina con los campings, los arrieros y Carabineros cuando hay una persona perdida o accidentada.',
     ],
     foto: {
       ...imagenes.registroSendero,

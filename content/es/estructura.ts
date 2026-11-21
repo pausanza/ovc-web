@@ -289,10 +289,10 @@ export const destinoAportes = {
   items: [
     {
       icono: 'edificio' as const,
-      dato: '+12.000',
-      titulo: 'Visitantes atendidos cada temporada',
+      dato: '-15.000',
+      titulo: 'Visitantes como máximo cada temporada',
       texto:
-        'El Centro de Visitantes funciona entre diciembre y marzo: informa, registra entradas y salidas, y coordina con los campings, los arrieros y Carabineros cuando hay alguien perdido o accidentado.',
+        'El Centro de Visitantes funciona entre diciembre y abril: informa, registra entradas y salidas, y coordina con los campings, los arrieros y Carabineros cuando hay alguien perdido o accidentado.',
     },
     {
       icono: 'sendero' as const,

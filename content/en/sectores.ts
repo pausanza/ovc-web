@@ -11,7 +11,7 @@ export const sectoresDetalle: SectorDetalle[] = [
     parrafos: [
       'The entrance to the Cochamó Valley sits where the Cochamó River flows into the sea, at the junction of the main road and the gravel track. From the bridge you get a view of the clear-water river, the imposing Cerro Arcoíris and the native forest that runs through the whole valley.',
       'You turn onto the gravel track and drive 6 kilometres to the end, where you find parking, campsites and the Cochamó Valley Visitor Centre.',
-      'The Visitor Centre was created and is run by Organización Valle Cochamó since 2017, in response to the rise in unregulated tourism. Between December and March it receives more than 12,000 visitors: it informs, registers, monitors the valley and coordinates with the campsites, the muleteers and the police whenever someone is lost or injured.',
+      'The Visitor Centre was created and is run by Organización Valle Cochamó since 2017, in response to the rise in unregulated tourism. Between December and April it receives up to 15,000 visitors: it informs, registers, monitors the valley and coordinates with the campsites, the muleteers and the police whenever someone is lost or injured.',
     ],
     foto: {
       ...imagenes.registroSendero,
