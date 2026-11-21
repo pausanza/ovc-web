@@ -1627,6 +1627,10 @@ p { text-wrap: pretty; }
 .llegar__advertencia li + li { margin-top: 6px; }
 
 .llegar__rotulo { margin-bottom: 8px; font-weight: 650; font-size: .95rem; }
+.llegar__ruta + .llegar__ruta { margin-top: 18px; }
+.llegar__via > p + p { margin-top: 10px; }
+.llegar__via > p:has(+ .llegar__rotulo) { margin-bottom: 18px; }
+.llegar__contactos + .llegar__nota { margin-top: 14px; margin-bottom: 4px; }
 .llegar__pasos { margin: 0 0 10px; padding-left: 20px; list-style: decimal; }
 .llegar__pasos li { font-size: .89rem; line-height: 1.55; color: var(--texto-suave); }
 .llegar__pasos li + li { margin-top: 5px; }

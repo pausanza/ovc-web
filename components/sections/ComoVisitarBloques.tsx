@@ -47,19 +47,25 @@ export function ComoLlegar({ lang }: { lang: Lang }) {
         <div className="llegar">
           <article className="llegar__via revelar">
             <h3>{auto.titulo}</h3>
-            <p>{auto.texto}</p>
+            {auto.rutas.map((ruta) => (
+              <div className="llegar__ruta" key={ruta.titulo}>
+                <p className="llegar__rotulo">{ruta.titulo}</p>
+                <ol className="llegar__pasos">
+                  {ruta.pasos.map((paso) => (
+                    <li key={paso}>{paso}</li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+            <p className="llegar__nota">{auto.nota}</p>
           </article>
 
           <article className="llegar__via llegar__via--larga revelar">
             <h3>{bus.titulo}</h3>
 
-            <p className="llegar__rotulo">{bus.planificacion.titulo}</p>
-            <ol className="llegar__pasos">
-              {bus.planificacion.pasos.map((paso) => (
-                <li key={paso}>{paso}</li>
-              ))}
-            </ol>
-            <p className="llegar__nota">{bus.planificacion.nota}</p>
+            {bus.parrafos.map((parrafo) => (
+              <p key={parrafo}>{parrafo}</p>
+            ))}
 
             <p className="llegar__rotulo">{bus.contactosTitulo}</p>
             <ul className="llegar__contactos">
@@ -72,6 +78,11 @@ export function ComoLlegar({ lang }: { lang: Lang }) {
                 </li>
               ))}
             </ul>
+            {bus.notas.map((nota) => (
+              <p className="llegar__nota" key={nota}>
+                {nota}
+              </p>
+            ))}
           </article>
         </div>
 

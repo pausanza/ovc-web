@@ -529,7 +529,7 @@ export interface Contenido {
   }
 
   /* ----- Página Cómo visitar ----- */
-  comoVisitarPagina: Encabezado & { intro: string }
+  comoVisitarPagina: Encabezado & { intro: string[] }
   dondeDormir: Encabezado & {
     /** Botón bajo la bajada, para ir a los horarios antes de elegir dónde dormir. */
     enlace?: Enlace
@@ -547,15 +547,17 @@ export interface Contenido {
   obras: (PaginaLarga & { slug: string })[]
   reservarPagina: Encabezado & { intro: string; tituloSectores: string; tituloDormir: string }
   comoLlegar: Encabezado & {
-    auto: { titulo: string; texto: string }
+    /** Una ruta por cada forma de llegar en auto, con sus pasos en orden. */
+    auto: { titulo: string; rutas: { titulo: string; pasos: string[] }[]; nota: string }
     /** Qué hacer si no se alcanza el horario de ingreso. */
     planB: { titulo: string; texto: string; cta: Enlace }
     bus: {
       titulo: string
       advertencia: { titulo: string; puntos: string[] }
-      planificacion: { titulo: string; pasos: string[]; nota: string }
+      parrafos: string[]
       contactosTitulo: string
       contactos: Contacto[]
+      notas: string[]
     }
   }
   cuantoCuesta: Encabezado & { costos: Costo[]; nota: string }

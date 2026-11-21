@@ -91,8 +91,10 @@ export const comoVisitarPagina = {
   eyebrow: 'Cómo visitar',
   titulo: 'Todo lo que necesitas antes de venir',
   bajada: 'Cómo llegar, cuánto cuesta, cómo se reserva y qué tienes que saber para entrar y salir sin problemas.',
-  intro:
-    'El Valle Cochamó no es un parque: son tierras privadas cuyos dueños abrieron el acceso, y la visita se ordena entre todos. Desde 2016 hay que reservar para entrar al sector La Junta.',
+  intro: [
+    'El Valle de Cochamó no es un parque: son tierras privadas y fiscales cuyos dueños abrieron el acceso de forma voluntaria, y la visita se ordena entre todos.',
+    'Desde 2016, para acampar en el sector La Junta hay que reservar con anticipación. Para el resto de las actividades, como el senderismo por el día, no necesitas reserva: solo respetar los horarios y las normas del valle.',
+  ],
 }
 
 export const comoLlegar = {
@@ -101,8 +103,27 @@ export const comoLlegar = {
   bajada: 'El valle está en la comuna de Cochamó. Desde el centro del pueblo hasta el inicio del sendero hay 10 km, de los cuales 6 km son de camino de ripio.',
   auto: {
     titulo: 'En auto',
-    texto:
-      'Conduce hacia Ensenada por la Ruta 225 y toma la bifurcación a Cochamó, Ruta V-69. Al final del camino hay estacionamiento.',
+    rutas: [
+      {
+        titulo: 'Por Ensenada',
+        pasos: [
+          'Desde Puerto Montt o Puerto Varas, conduce hacia Ensenada por la Ruta 225 y toma la bifurcación a Cochamó, Ruta V-69.',
+          'Unos 5 km después del pueblo de Cochamó, antes del puente Cochamó, encontrarás a mano izquierda la Ruta V-783 Paso El León.',
+          'Sigue por ese camino de ripio hasta el final: allí encontrarás estacionamientos.',
+        ],
+      },
+      {
+        titulo: 'Por Caleta La Arena (con transbordador)',
+        pasos: [
+          'Desde Puerto Montt, conduce hacia el sur por la Ruta 7 hasta Caleta La Arena.',
+          'En Caleta La Arena toma el transbordador de Transportes del Estuario. Infórmate antes y considera el tiempo de espera para el cruce, de unos 30 minutos.',
+          'Al bajar del transbordador, toma el camino a mano izquierda: la ruta Puelo–Cochamó V-69, de unos 65 km, con tramos pavimentados y de ripio.',
+          'Pasando el puente Cochamó encontrarás a mano derecha la Ruta V-783 Paso El León.',
+          'Sigue por ese camino de ripio hasta el final: allí encontrarás estacionamientos.',
+        ],
+      },
+    ],
+    nota: 'El vehículo no puede quedar estacionado en la calle.',
   },
   planB: {
     titulo: '¿Llegas tarde o perdiste el bus?',
@@ -115,27 +136,27 @@ export const comoLlegar = {
     advertencia: {
       titulo: 'Antes de iniciar tu trayecto',
       puntos: [
-        'Ten tu reserva confirmada en un camping. Sin ella no puedes ingresar.',
-        'Los pasajes se venden solo de forma presencial, en el terminal de Puerto Montt.',
-        'El último bus de Puerto Montt a Cochamó sale a las 15:00. Los horarios pueden modificarse: confírmalos con la empresa.',
+        'Existen varias líneas de buses que salen desde el terminal de Puerto Montt, pasan por Puerto Varas y llegan al pueblo de Cochamó. Algunas entran al valle y te dejan a metros del Centro de Visitantes. Infórmate de los horarios con la empresa, considerando que el último ingreso a los campings es a las 15:00 h (temporada alta).',
+        'Asegúrate de que tu reserva esté confirmada y llévala descargada en tu celular o impresa: en el Valle de Cochamó la señal es escasa.',
+        'Deberás mostrarla en el Centro de Visitantes. Sin ella no podrás ingresar.',
+        'Lleva botiquín, linterna frontal y ropa adecuada para la actividad.',
+        'Coméntale a tu familia tu itinerario. En el lugar no hay señal ni suministro eléctrico, así que la desconexión será parte del viaje.',
       ],
     },
-    planificacion: {
-      titulo: 'Ejemplo de planificación',
-      pasos: [
-        'Reserva tu camping en la plataforma.',
-        'Compra tu pasaje en el terminal de Puerto Montt.',
-        'Llegada a Cochamó y traslado al inicio del sendero.',
-        'Regístrate en el Centro de Visitantes antes de las 15:00 (14:00 en marzo y abril).',
-      ],
-      nota: 'Las horas de salida y llegada de los buses varían. Confírmalas con la empresa antes de viajar.',
-    },
+    parrafos: [
+      'Desde el terminal de Puerto Montt hay varias líneas de buses que llegan a Cochamó; también pasan por Puerto Varas.',
+      'Infórmate de sus horarios, tomando en cuenta que el último ingreso hacia los campings es a las 15:00 h en temporada alta.',
+    ],
     contactosTitulo: 'Contacto de las empresas',
     contactos: [
       { tipo: 'telefono', valor: 'Buses Trans HAR · +56 9 9530 6867', href: 'tel:+56995306867' },
       { tipo: 'telefono', valor: 'Buses Río Puelo · +56 9 9123 0838', href: 'tel:+56991230838' },
       { tipo: 'telefono', valor: 'Buses Río Puelo · +56 9 7408 9199', href: 'tel:+56974089199' },
     ] satisfies Contacto[],
+    notas: [
+      'Algunos de estos recorridos entran al valle y te dejan a metros del Centro de Visitantes.',
+      'Ningún recorrido te deja en los campings del sector La Junta.',
+    ],
   },
 }
 

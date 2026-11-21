@@ -90,8 +90,10 @@ export const comoVisitarPagina = {
   eyebrow: 'How to visit',
   titulo: 'Everything you need before you come',
   bajada: 'How to get here, what it costs, how booking works and what you need to know to get in and out without trouble.',
-  intro:
-    'The Cochamó Valley is not a park: it is private land whose owners opened up access, and the visit is managed collectively. Since 2016 you must book to enter the La Junta sector.',
+  intro: [
+    'The Cochamó Valley is not a park: it is private and state land whose owners voluntarily opened up access, and the visit is managed by everyone together.',
+    'Since 2016 you must book ahead to camp in the La Junta sector. For everything else, such as a day hike, you do not need a booking: just respect the opening hours and the valley’s rules.',
+  ],
 }
 
 export const comoLlegar = {
@@ -100,8 +102,27 @@ export const comoLlegar = {
   bajada: 'The valley is in the Cochamó district. From the centre of the village to the trailhead it is 10 km, of which 6 km are gravel road.',
   auto: {
     titulo: 'By car',
-    texto:
-      'Drive towards Ensenada on Route 225 and take the turning to Cochamó, Route V-69. There is parking at the end of the road.',
+    rutas: [
+      {
+        titulo: 'Via Ensenada',
+        pasos: [
+          'From Puerto Montt or Puerto Varas, drive towards Ensenada on Route 225 and take the turning to Cochamó, Route V-69.',
+          'About 5 km past the village of Cochamó, before the Cochamó bridge, you will find Route V-783 Paso El León on your left.',
+          'Follow that gravel road to the end: there you will find parking.',
+        ],
+      },
+      {
+        titulo: 'Via Caleta La Arena (with ferry)',
+        pasos: [
+          'From Puerto Montt, drive south on Route 7 to Caleta La Arena.',
+          'At Caleta La Arena take the Transportes del Estuario ferry. Check ahead and allow for the waiting time for the crossing, about 30 minutes.',
+          'When you leave the ferry, take the road to the left: the Puelo–Cochamó route V-69, about 65 km, partly paved and partly gravel.',
+          'After the Cochamó bridge you will find Route V-783 Paso El León on your right.',
+          'Follow that gravel road to the end: there you will find parking.',
+        ],
+      },
+    ],
+    nota: 'Vehicles cannot be left parked on the road.',
   },
   planB: {
     titulo: 'Running late, or missed the bus?',
@@ -114,27 +135,27 @@ export const comoLlegar = {
     advertencia: {
       titulo: 'Before you set off',
       puntos: [
-        'Have your campsite booking confirmed. Without it you cannot enter.',
-        'Tickets are sold in person only, at the Puerto Montt terminal.',
-        'The last bus from Puerto Montt to Cochamó leaves at 15:00. Times can change: confirm them with the company.',
+        'Several bus lines leave from the Puerto Montt terminal, stop in Puerto Varas and reach the village of Cochamó. Some go into the valley and drop you a few metres from the Visitor Centre. Check the timetables with the company, bearing in mind that the last entry to the campsites is at 15:00 (high season).',
+        'Make sure your booking is confirmed and carry it downloaded on your phone or printed: signal is scarce in the Cochamó Valley.',
+        'You will have to show it at the Visitor Centre. Without it you cannot enter.',
+        'Bring a first-aid kit, a head torch and suitable clothing for the activity.',
+        'Tell your family your itinerary. There is no signal or electricity there, so disconnecting will be part of the trip.',
       ],
     },
-    planificacion: {
-      titulo: 'A sample plan',
-      pasos: [
-        'Book your campsite on the platform.',
-        'Buy your ticket at the Puerto Montt terminal.',
-        'Arrive in Cochamó and transfer to the start of the trail.',
-        'Register at the Visitor Centre before 15:00 (14:00 in March and April).',
-      ],
-      nota: 'Bus departure and arrival times vary. Confirm them with the company before travelling.',
-    },
+    parrafos: [
+      'Several bus lines run from the Puerto Montt terminal to Cochamó; they also stop in Puerto Varas.',
+      'Check their timetables, bearing in mind that the last entry to the campsites is at 15:00 in high season.',
+    ],
     contactosTitulo: 'Bus company contacts',
     contactos: [
       { tipo: 'telefono', valor: 'Buses Trans HAR · +56 9 9530 6867', href: 'tel:+56995306867' },
       { tipo: 'telefono', valor: 'Buses Río Puelo · +56 9 9123 0838', href: 'tel:+56991230838' },
       { tipo: 'telefono', valor: 'Buses Río Puelo · +56 9 7408 9199', href: 'tel:+56974089199' },
     ] satisfies Contacto[],
+    notas: [
+      'Some of these routes go into the valley and drop you a few metres from the Visitor Centre.',
+      'No route takes you to the campsites in the La Junta sector.',
+    ],
   },
 }
 

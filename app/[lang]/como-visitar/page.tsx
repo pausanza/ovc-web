@@ -47,7 +47,7 @@ export default async function PaginaComoVisitar({ params }: PageProps<'/[lang]/c
         lang={lang}
         eyebrow={comoVisitarPagina.eyebrow}
         titulo={comoVisitarPagina.titulo}
-        intro={[comoVisitarPagina.intro]}
+        intro={comoVisitarPagina.intro}
         foto={imagenes.registroSendero}
         alt={textos.fotoComoVisitar}
       >
