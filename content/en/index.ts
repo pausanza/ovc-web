@@ -603,8 +603,8 @@ export const contenido: Contenido = {
     hectareas: '11,432.8',
     hectareasPie: 'hectares protected',
     foto: {
-      ...imagenes.conservacionLienzos,
-      alt: 'Community banners at the entrance to the valley: “We want more protected areas” and “Patagonia without land subdivision”',
+      ...imagenes.hero,
+      alt: 'The Toboganes waterfalls flowing over polished granite into a turquoise pool, surrounded by native forest',
     },
     enlace: { label: 'About the sanctuary', href: `${PORTADA}/santuario` },
   },

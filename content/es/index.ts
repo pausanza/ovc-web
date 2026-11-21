@@ -594,8 +594,8 @@ export const contenido: Contenido = {
     hectareas: '11.432,8',
     hectareasPie: 'hectáreas protegidas',
     foto: {
-      ...imagenes.conservacionLienzos,
-      alt: 'Lienzos de la comunidad en el acceso al valle: «Queremos + áreas protegidas» y «Patagonia sin loteos»',
+      ...imagenes.hero,
+      alt: 'Las cascadas de los Toboganes cayendo sobre granito pulido hasta una poza turquesa, rodeadas de bosque nativo',
     },
     enlace: { label: 'Conoce el santuario', href: `${PORTADA}/santuario` },
   },
