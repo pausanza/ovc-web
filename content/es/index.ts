@@ -740,7 +740,7 @@ export const contenido: Contenido = {
     {
       icono: 'gente',
       label: 'Educación ambiental',
-      texto: 'Estudiantes de las escuelas de Cochamó y Puelo conocen el Santuario y el sector La Junta.',
+      texto: 'Estudiantes de enseñanza media de la comuna conocen el Santuario y el sector La Junta.',
       href: `${PORTADA}/obras/educacion-ambiental`,
       imagen: 'logroEducacion',
       alt: 'Grupo de estudiantes y monitores celebrando sobre una roca en el valle',

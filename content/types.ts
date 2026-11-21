@@ -293,6 +293,8 @@ export interface PaginaLarga {
     grupos?: { titulo: string; items: string[] }[]
   }[]
   /** `texto` es el primer párrafo; `parrafos`, los siguientes. `cta2` es un segundo botón. */
+  /** Fotos extra, en una fila bajo los bloques. */
+  galeria?: { imagen: keyof typeof import('./imagenes').imagenes; alt: string }[]
   cierre: { titulo: string; texto: string; parrafos?: string[]; cta: Enlace; cta2?: Enlace }
 }
 

@@ -13,6 +13,8 @@ export const imagenes = {
   laJuntaAerea: { src: '/img/la-junta-aerea.jpg', width: 1115, height: 743 },
   logroCentroVisitantes: { src: '/img/logro-centro-visitantes.jpg', width: 2500, height: 1406 },
   logroSenderos: { src: '/img/logro-senderos.jpg', width: 2048, height: 1152 },
+  educacionInicioSendero: { src: '/img/educacion-inicio-sendero.jpg', width: 1280, height: 591 },
+  educacionLaJunta: { src: '/img/educacion-la-junta.jpg', width: 1280, height: 591 },
   logroEducacion: { src: '/img/logro-educacion.jpg', width: 1600, height: 739 },
   logroSenaletica: { src: '/img/logro-senaletica.jpg', width: 1280, height: 720 },
   logroReciclaje: { src: '/img/logro-reciclaje.jpg', width: 2131, height: 1199 },

@@ -1,6 +1,7 @@
 import { Boton } from '@/components/ui/Boton'
 import { Icon } from '@/components/ui/Icon'
-import type { PaginaLarga } from '@/content'
+import Image from 'next/image'
+import { imagenes, type PaginaLarga } from '@/content'
 
 /** Pasa a negrita lo que va entre **dobles asteriscos**, como «**2009:**». */
 function conNegritas(texto: string) {
@@ -76,6 +77,24 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
               )}
             </div>
           ))}
+
+          {pagina.galeria && (
+            <div className="lectura__galeria revelar">
+              {pagina.galeria.map((foto) => {
+                const img = imagenes[foto.imagen]
+                return (
+                  <Image
+                    key={foto.imagen}
+                    src={img.src}
+                    alt={foto.alt}
+                    width={img.width}
+                    height={img.height}
+                    sizes="(max-width: 700px) 100vw, 380px"
+                  />
+                )
+              })}
+            </div>
+          )}
         </div>
       </section>
 
