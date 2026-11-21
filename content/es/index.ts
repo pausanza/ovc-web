@@ -737,6 +737,14 @@ export const contenido: Contenido = {
       imagen: 'logroEscalada',
       alt: 'Escalador en una pared de granito del valle',
     },
+    {
+      icono: 'gente',
+      label: 'Educación ambiental',
+      texto: 'Estudiantes de las escuelas de Cochamó y Puelo conocen el Santuario y el sector La Junta.',
+      href: `${PORTADA}/obras/educacion-ambiental`,
+      imagen: 'logroEducacion',
+      alt: 'Grupo de estudiantes y monitores celebrando sobre una roca en el valle',
+    },
   ],
 
   boletin: {

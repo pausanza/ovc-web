@@ -746,6 +746,14 @@ export const contenido: Contenido = {
       imagen: 'logroEscalada',
       alt: 'A climber on one of the valley’s granite walls',
     },
+    {
+      icono: 'gente',
+      label: 'Environmental education',
+      texto: 'Students from the schools of Cochamó and Puelo get to know the Sanctuary and the La Junta sector.',
+      href: `${PORTADA}/obras/educacion-ambiental`,
+      imagen: 'logroEducacion',
+      alt: 'A group of students and guides celebrating on a rock in the valley',
+    },
   ],
 
   boletin: {

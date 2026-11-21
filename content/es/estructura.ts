@@ -976,4 +976,41 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
     },
   },
+  {
+    slug: 'educacion-ambiental',
+    eyebrow: 'Lo que hemos logrado',
+    titulo: 'Conociendo la riqueza natural de mi comuna',
+    bajada: 'Educación ambiental con las escuelas de Cochamó y Puelo',
+    foto: {
+      imagen: 'logroEducacion',
+      alt: 'Grupo de estudiantes y monitores celebrando sobre una roca en el valle, con las paredes de granito y el bosque de fondo',
+    },
+    intro: [
+      'Es un proyecto de educación ambiental con estudiantes de las escuelas de Cochamó y Puelo. La idea es que las niñas, niños y jóvenes de la comuna conozcan, valoren y se sientan parte de las riquezas naturales que tienen cerca de su casa.',
+      'Junto al equipo de la corporación, los estudiantes recorren el sendero de los arrieros, conocen el Santuario de la Naturaleza Valle Cochamó y llegan hasta el sector La Junta.',
+    ],
+    bloques: [
+      {
+        titulo: 'Por qué empezar por casa',
+        parrafos: [
+          'Muchas personas viajan desde lejos para conocer el Valle Cochamó, pero no todos los que crecen en la comuna han tenido la oportunidad de recorrerlo.',
+          'Quien conoce un lugar lo quiere, y quien lo quiere lo cuida. Por eso este proyecto apuesta por las nuevas generaciones de Cochamó y Puelo: ellas serán quienes sigan protegiendo el valle.',
+        ],
+      },
+      {
+        titulo: 'Lo que viven en el valle',
+        lista: [
+          'Caminar el sendero histórico que usan los arrieros.',
+          'Conocer el bosque nativo, los ríos y las paredes de granito del Santuario.',
+          'Llegar al sector La Junta, el corazón del valle.',
+          'Aprender buenas prácticas para visitar ambientes naturales.',
+        ],
+      },
+    ],
+    cierre: {
+      titulo: 'Ayúdanos a que más estudiantes conozcan el valle',
+      texto: 'Cada salida implica transporte, alimentación y monitores. Tu aporte permite que más niñas, niños y jóvenes de la comuna conozcan y cuiden su valle.',
+      cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
+    },
+  },
 ]

@@ -957,4 +957,41 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
     },
   },
+  {
+    slug: 'educacion-ambiental',
+    eyebrow: 'What we have achieved',
+    titulo: 'Getting to know the natural wealth of my district',
+    bajada: 'Environmental education with the schools of Cochamó and Puelo',
+    foto: {
+      imagen: 'logroEducacion',
+      alt: 'A group of students and guides celebrating on a rock in the valley, with granite walls and forest behind them',
+    },
+    intro: [
+      'This is an environmental education project with students from the schools of Cochamó and Puelo. The aim is for the district’s children and young people to know, value and feel part of the natural wealth they have close to home.',
+      'Together with the corporation’s team, the students walk the muleteers’ trail, get to know the Valle Cochamó Nature Sanctuary and reach the La Junta sector.',
+    ],
+    bloques: [
+      {
+        titulo: 'Why start at home',
+        parrafos: [
+          'Many people travel a long way to see the Cochamó Valley, but not everyone who grows up in the district has had the chance to walk it.',
+          'Those who know a place love it, and those who love it look after it. That is why this project invests in the new generations of Cochamó and Puelo: they are the ones who will keep protecting the valley.',
+        ],
+      },
+      {
+        titulo: 'What they experience in the valley',
+        lista: [
+          'Walking the historic trail used by the muleteers.',
+          'Discovering the native forest, rivers and granite walls of the Sanctuary.',
+          'Reaching the La Junta sector, the heart of the valley.',
+          'Learning good practices for visiting natural environments.',
+        ],
+      },
+    ],
+    cierre: {
+      titulo: 'Help more students get to know the valley',
+      texto: 'Every outing means transport, food and guides. Your contribution lets more children and young people from the district get to know and care for their valley.',
+      cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
+    },
+  },
 ]
