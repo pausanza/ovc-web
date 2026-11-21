@@ -746,9 +746,14 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     ],
     cierre: {
       titulo: 'Help us keep it open all year',
-      texto:
-        'Running the Visitor Centre means staff, equipment and logistics. There is no public budget behind it: donations and membership fees sustain it.',
+      texto: 'The valley does not look after itself.',
+      parrafos: [
+        'Your contribution helps keep the place cared for and funds the team, trail maintenance and signage.',
+        'There is no public budget behind it, just a group of people who believe the valley deserves to be conserved.',
+        'Help us keep caring for the Cochamó Valley. Your donation matters: become a member and be part of this adventure.',
+      ],
       cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
+      cta2: { label: 'I want to be a member', href: `${PORTADA}/como-ayudar#socios` },
     },
   },
   {

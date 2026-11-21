@@ -765,9 +765,14 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     ],
     cierre: {
       titulo: 'Ayúdanos a tenerlo abierto todo el año',
-      texto:
-        'Mantener el Centro de Visitantes es sueldo de equipo, equipamiento y logística. No hay presupuesto público detrás: lo sostienen las donaciones y las cuotas de socios.',
+      texto: 'El valle no se cuida solo.',
+      parrafos: [
+        'Tu aporte ayuda a mantener el cuidado del lugar y a financiar el equipo de trabajo, la mantención de senderos y la señalética.',
+        'No existe un presupuesto público detrás, solo un grupo humano que cree que el valle merece ser conservado.',
+        'Ayúdanos a seguir cuidando el Valle Cochamó. Tu donación importa: hazte socio y sé parte de esta aventura.',
+      ],
       cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
+      cta2: { label: 'Quiero ser socio', href: `${PORTADA}/como-ayudar#socios` },
     },
   },
   {

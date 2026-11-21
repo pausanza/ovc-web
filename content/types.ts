@@ -292,7 +292,8 @@ export interface PaginaLarga {
     lista?: string[]
     grupos?: { titulo: string; items: string[] }[]
   }[]
-  cierre: { titulo: string; texto: string; cta: Enlace }
+  /** `texto` es el primer párrafo; `parrafos`, los siguientes. `cta2` es un segundo botón. */
+  cierre: { titulo: string; texto: string; parrafos?: string[]; cta: Enlace; cta2?: Enlace }
 }
 
 /** Un nivel de socio, con su precio anual y mensual. */

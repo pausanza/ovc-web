@@ -84,9 +84,19 @@ export function PaginaTexto({ pagina }: { pagina: PaginaLarga }) {
           <div className="lectura__cierre revelar">
             <h2>{pagina.cierre.titulo}</h2>
             <p>{pagina.cierre.texto}</p>
-            <Boton href={pagina.cierre.cta.href} variante="claro">
-              {pagina.cierre.cta.label}
-            </Boton>
+            {pagina.cierre.parrafos?.map((parrafo) => (
+              <p key={parrafo}>{parrafo}</p>
+            ))}
+            <div className="lectura__cierre-botones">
+              <Boton href={pagina.cierre.cta.href} variante="claro">
+                {pagina.cierre.cta.label}
+              </Boton>
+              {pagina.cierre.cta2 && (
+                <Boton href={pagina.cierre.cta2.href} variante="fantasma">
+                  {pagina.cierre.cta2.label}
+                </Boton>
+              )}
+            </div>
           </div>
         </div>
       </section>
