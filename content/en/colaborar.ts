@@ -96,6 +96,11 @@ export const sociosPagina: Encabezado & {
         anual: 60000,
         mensual: 5000,
         beneficios: ['Valley sticker'],
+        comoAnual: {
+          nombre: 'Pudú',
+          subtitulo: 'The smallest deer in the world, a forest dweller',
+          beneficios: ['Valley sticker'],
+        },
       },
       {
         id: 'alerce',
@@ -103,7 +108,12 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Thousand-year-old tree of the sanctuary',
         anual: 120000,
         mensual: 10000,
-        beneficios: ['Valley sticker', 'Illustrated field guide'],
+        beneficios: ['Valley sticker'],
+        comoAnual: {
+          nombre: 'Arcoíris',
+          subtitulo: 'Granite wall in the northwest of the valley',
+          beneficios: ['Valley sticker', 'Illustrated field guide'],
+        },
         destacado: true,
       },
       {
@@ -112,7 +122,12 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Granite peak above La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: ['Valley sticker', 'Illustrated field guide'],
+        beneficios: ['Valley sticker'],
+        comoAnual: {
+          nombre: 'La Paloma',
+          subtitulo: 'High valley north of the La Junta river',
+          beneficios: ['Valley sticker', 'Illustrated field guide'],
+        },
       },
       {
         id: 'condor',
@@ -121,6 +136,11 @@ export const sociosPagina: Encabezado & {
         anual: 300000,
         mensual: 25000,
         beneficios: ['Valley sticker', 'Illustrated field guide'],
+        comoAnual: {
+          nombre: 'Valle Cochamó',
+          subtitulo: 'Patron plan, for individuals and companies',
+          beneficios: ['Valley sticker', 'Illustrated field guide'],
+        },
         mecenas: true,
       },
     ],

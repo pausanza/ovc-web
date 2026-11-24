@@ -308,7 +308,10 @@ export interface PlanSocio {
   /** Pesos chilenos, sin separadores: se formatean según el idioma. */
   anual: number
   mensual: number
+  /** Lo que recibe quien paga mensual. */
   beneficios: string[]
+  /** El pago anual tiene nombre, descripción y beneficios propios. */
+  comoAnual: { nombre: string; subtitulo: string; beneficios: string[] }
   /** El nivel mecenas, que se muestra distinto */
   mecenas?: boolean
   destacado?: boolean

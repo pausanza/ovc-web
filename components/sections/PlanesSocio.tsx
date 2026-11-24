@@ -79,10 +79,16 @@ export function PlanesSocio({ lang, destino, id }: { lang: Lang; destino: string
                 .filter(Boolean)
                 .join(' ')
 
+              // El pago anual tiene nombre y beneficios propios.
+              const vista =
+                periodo === 'anual'
+                  ? plan.comoAnual
+                  : { nombre: plan.nombre, subtitulo: plan.subtitulo, beneficios: plan.beneficios }
+
               return (
                 <article className={clases} key={plan.id}>
-                  <h3>{plan.nombre}</h3>
-                  <p className="plan__subtitulo">{plan.subtitulo}</p>
+                  <h3>{vista.nombre}</h3>
+                  <p className="plan__subtitulo">{vista.subtitulo}</p>
 
                   <p className="plan__precio">
                     {moneda.format(periodo === 'anual' ? plan.anual : plan.mensual)}
@@ -96,9 +102,9 @@ export function PlanesSocio({ lang, destino, id }: { lang: Lang; destino: string
                       : `${moneda.format(plan.anual)} ${planes.alAnio}`}
                   </p>
 
-                  {plan.beneficios.length > 0 && (
+                  {vista.beneficios.length > 0 && (
                     <ul className="plan__beneficios">
-                      {plan.beneficios.map((beneficio) => (
+                      {vista.beneficios.map((beneficio) => (
                         <li key={beneficio}>
                           <Icon name="check" />
                           {beneficio}
@@ -111,7 +117,7 @@ export function PlanesSocio({ lang, destino, id }: { lang: Lang; destino: string
                     className="btn btn--oro btn--recto plan__cta"
                     href={enlace ? payku.enlacePlan(enlace) : destino}
                   >
-                    {planes.elegir} {plan.nombre}
+                    {planes.elegir} {vista.nombre}
                   </a>
                 </article>
               )

@@ -97,6 +97,11 @@ export const sociosPagina: Encabezado & {
         anual: 60000,
         mensual: 5000,
         beneficios: ['Sticker del valle'],
+        comoAnual: {
+          nombre: 'Pudú',
+          subtitulo: 'El ciervo más pequeño del mundo, habitante del bosque',
+          beneficios: ['Sticker del valle'],
+        },
       },
       {
         id: 'alerce',
@@ -104,7 +109,12 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Árbol milenario del santuario',
         anual: 120000,
         mensual: 10000,
-        beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        beneficios: ['Sticker del valle'],
+        comoAnual: {
+          nombre: 'Arcoíris',
+          subtitulo: 'Pared de granito al noroeste del valle',
+          beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        },
       },
       {
         id: 'trinidad',
@@ -112,7 +122,12 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Cerro de granito de La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        beneficios: ['Sticker del valle'],
+        comoAnual: {
+          nombre: 'La Paloma',
+          subtitulo: 'Valle de altura al norte del río La Junta',
+          beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        },
       },
       {
         id: 'condor',
@@ -121,6 +136,11 @@ export const sociosPagina: Encabezado & {
         anual: 300000,
         mensual: 25000,
         beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        comoAnual: {
+          nombre: 'Valle Cochamó',
+          subtitulo: 'Plan mecenas, para personas y empresas',
+          beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
+        },
         mecenas: true,
       },
     ],
