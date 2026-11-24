@@ -150,7 +150,7 @@ export const sociosPagina: Encabezado & {
   notaSuscripcion:
     'You can cancel the subscription whenever you want, by writing to us or from the confirmation email Payku sends you.',
   tarjeta: {
-    alt: 'The organisation’s team at work in the valley',
+    alt: 'The Toboganes waterfalls flowing over polished granite into a turquoise pool, surrounded by native forest',
     pasos: [
       'You pick your plan above and its Payku page opens, with the amount, the frequency and the date of the first charge already filled in.',
       'You type your name, email and phone. That is how we identify you as a member.',

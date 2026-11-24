@@ -150,7 +150,7 @@ export const sociosPagina: Encabezado & {
   notaSuscripcion:
     'Puedes cancelar la suscripción cuando quieras, escribiéndonos o desde el correo de confirmación que te manda Payku.',
   tarjeta: {
-    alt: 'Equipo de la corporación trabajando en el valle',
+    alt: 'Las cascadas de los Toboganes cayendo sobre granito pulido hasta una poza turquesa, rodeadas de bosque nativo',
     pasos: [
       'Eliges tu plan arriba y se abre su página en Payku, con el monto, la periodicidad y la fecha del primer cobro ya escritos.',
       'Escribes tu nombre, correo y teléfono. Con eso te identificamos como socio o socia.',

@@ -25,7 +25,6 @@ export const imagenes = {
   marcha: { src: '/img/marcha-proteccion.jpg', width: 1400, height: 787 },
   toboganes: { src: '/img/toboganes.jpg', width: 1400, height: 1050 },
   cascada: { src: '/img/cascada-aerea.jpg', width: 1400, height: 786 },
-  equipo: { src: '/img/equipo-ovc.jpg', width: 1400, height: 803 },
   registroSendero: { src: '/img/registro-sendero.jpg', width: 1400, height: 787 },
   campingLaJunta: { src: '/img/camping-la-junta.jpg', width: 1400, height: 933 },
   arrieros: { src: '/img/arrieros.jpg', width: 1200, height: 617 },

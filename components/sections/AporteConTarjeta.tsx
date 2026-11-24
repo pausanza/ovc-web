@@ -24,10 +24,10 @@ export function AporteConTarjeta({ lang }: { lang: Lang }) {
     <div className="traspaso revelar">
       <div className="traspaso__imagen">
         <Image
-          src={imagenes.equipo.src}
+          src={imagenes.hero.src}
           alt={tarjeta.alt}
-          width={imagenes.equipo.width}
-          height={imagenes.equipo.height}
+          width={imagenes.hero.width}
+          height={imagenes.hero.height}
           sizes="(max-width: 860px) 100vw, 44vw"
         />
       </div>
