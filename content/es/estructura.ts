@@ -338,6 +338,21 @@ export const destinoAportes = {
       texto:
         'La basura baja del valle y se separa abajo, y las señales del sendero orientan y piden cuidados en los puntos donde más impacto había.',
     },
+    {
+      icono: 'montana' as const,
+      dato: 'En curso',
+      titulo: 'Mejoras en los senderos de altura',
+      tituloGrande: true,
+      texto:
+        'Los trekkings hacia los valles de altura son muy exigentes. Mejorar sus tramos más difíciles los hace más seguros y evita que la erosión siga abriendo huellas nuevas.',
+    },
+    {
+      icono: 'sendero' as const,
+      dato: '2027 – 2028',
+      titulo: 'Reapertura del cerro Arcoíris',
+      texto:
+        'El sendero al cerro Arcoíris está cerrado por un derrumbe. El proyecto busca habilitarlo de nuevo de forma segura para las temporadas 2027 y 2028.',
+    },
   ],
 }
 

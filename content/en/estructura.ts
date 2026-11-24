@@ -332,6 +332,21 @@ export const destinoAportes = {
       texto:
         'Rubbish comes down from the valley and is sorted below, and the trail signs orient visitors and ask for care at the points where the impact was worst.',
     },
+    {
+      icono: 'montana' as const,
+      dato: 'Ongoing',
+      titulo: 'Improving the high-altitude trails',
+      tituloGrande: true,
+      texto:
+        'The treks to the high valleys are very demanding. Improving their hardest stretches makes them safer and stops erosion from opening new paths.',
+    },
+    {
+      icono: 'sendero' as const,
+      dato: '2027 – 2028',
+      titulo: 'Reopening Cerro Arcoíris',
+      texto:
+        'The trail to Cerro Arcoíris is closed because of a landslide. The project aims to make it safe to use again for the 2027 and 2028 seasons.',
+    },
   ],
 }
 
