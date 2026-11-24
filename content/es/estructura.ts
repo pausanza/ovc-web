@@ -1024,4 +1024,35 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
     },
   },
+  {
+    slug: 'puente-rio-piedras',
+    eyebrow: 'Lo que hemos logrado',
+    titulo: 'Puente colgante del río Piedras',
+    bajada: 'Un nuevo cruce en el sendero principal del valle',
+    foto: {
+      imagen: 'logroPuente',
+      alt: 'Puente colgante de madera y acero sobre el lecho de piedras del río Piedras, rodeado de bosque nativo',
+    },
+    intro: [
+      'La Corporación Valle Cochamó construyó un puente colgante sobre el río Piedras, en pleno sendero principal del valle.',
+      'El proyecto fue posible gracias a los fondos donados por Freya Conservation.',
+    ],
+    bloques: [
+      {
+        titulo: 'Por qué un puente',
+        parrafos: [
+          'El sendero principal es el que recorren a diario visitantes, arrieros y pilcheros. Un puente sobre el río Piedras permite cruzarlo de forma más segura y cuidar sus orillas del paso constante.',
+        ],
+      },
+    ],
+    galeria: [
+      { imagen: 'puenteLecho', alt: 'El puente colgante visto desde el lecho de piedras del río, con el bosque y los cerros de fondo' },
+      { imagen: 'puenteBosque', alt: 'El puente colgante entre los árboles del bosque nativo' },
+    ],
+    cierre: {
+      titulo: 'Ayúdanos a seguir mejorando el sendero',
+      texto: 'Puentes, pasarelas y drenajes hacen que el sendero sea más seguro y que el valle sufra menos. Cada aporte se queda aquí, en el valle.',
+      cta: { label: 'Quiero donar', href: `${PORTADA}/como-ayudar#donaciones` },
+    },
+  },
 ]

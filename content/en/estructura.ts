@@ -1005,4 +1005,35 @@ export const obras: (PaginaLarga & { slug: string })[] = [
       cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
     },
   },
+  {
+    slug: 'puente-rio-piedras',
+    eyebrow: 'What we have achieved',
+    titulo: 'Río Piedras suspension bridge',
+    bajada: 'A new crossing on the valley’s main trail',
+    foto: {
+      imagen: 'logroPuente',
+      alt: 'A timber and steel suspension bridge over the stony bed of the Piedras river, surrounded by native forest',
+    },
+    intro: [
+      'Corporación Valle Cochamó built a suspension bridge over the Piedras river, right on the valley’s main trail.',
+      'The project was made possible by funds donated by Freya Conservation.',
+    ],
+    bloques: [
+      {
+        titulo: 'Why a bridge',
+        parrafos: [
+          'The main trail is used every day by visitors, muleteers and pack horses. A bridge over the Piedras river makes the crossing safer and protects the riverbanks from constant traffic.',
+        ],
+      },
+    ],
+    galeria: [
+      { imagen: 'puenteLecho', alt: 'The suspension bridge seen from the stony riverbed, with forest and hills behind' },
+      { imagen: 'puenteBosque', alt: 'The suspension bridge among the trees of the native forest' },
+    ],
+    cierre: {
+      titulo: 'Help us keep improving the trail',
+      texto: 'Bridges, boardwalks and drainage make the trail safer and ease the pressure on the valley. Every contribution stays here, in the valley.',
+      cta: { label: 'I want to donate', href: `${PORTADA}/como-ayudar#donaciones` },
+    },
+  },
 ]

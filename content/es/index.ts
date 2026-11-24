@@ -745,6 +745,14 @@ export const contenido: Contenido = {
       imagen: 'logroEducacion',
       alt: 'Grupo de estudiantes y monitores celebrando sobre una roca en el valle',
     },
+    {
+      icono: 'camino',
+      label: 'Puente colgante río Piedras',
+      texto: 'Un nuevo cruce sobre el río Piedras, en el sendero principal, gracias a Freya Conservation.',
+      href: `${PORTADA}/obras/puente-rio-piedras`,
+      imagen: 'logroPuente',
+      alt: 'Puente colgante sobre el río Piedras, rodeado de bosque nativo',
+    },
   ],
 
   boletin: {

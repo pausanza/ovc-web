@@ -754,6 +754,14 @@ export const contenido: Contenido = {
       imagen: 'logroEducacion',
       alt: 'A group of students and guides celebrating on a rock in the valley',
     },
+    {
+      icono: 'camino',
+      label: 'Río Piedras suspension bridge',
+      texto: 'A new crossing over the Piedras river on the main trail, thanks to Freya Conservation.',
+      href: `${PORTADA}/obras/puente-rio-piedras`,
+      imagen: 'logroPuente',
+      alt: 'Suspension bridge over the Piedras river, surrounded by native forest',
+    },
   ],
 
   boletin: {
