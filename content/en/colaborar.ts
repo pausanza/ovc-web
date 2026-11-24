@@ -95,7 +95,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Bird of the Valdivian understorey',
         anual: 60000,
         mensual: 5000,
-        beneficios: [],
+        beneficios: ['Valley sticker'],
       },
       {
         id: 'alerce',
@@ -103,7 +103,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Thousand-year-old tree of the sanctuary',
         anual: 120000,
         mensual: 10000,
-        beneficios: [],
+        beneficios: ['Valley sticker', 'Illustrated field guide'],
         destacado: true,
       },
       {
@@ -112,7 +112,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Granite peak above La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: [],
+        beneficios: ['Valley sticker', 'Illustrated field guide'],
       },
       {
         id: 'condor',
@@ -120,7 +120,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Patron plan, for individuals and companies',
         anual: 300000,
         mensual: 25000,
-        beneficios: [],
+        beneficios: ['Valley sticker', 'Illustrated field guide'],
         mecenas: true,
       },
     ],

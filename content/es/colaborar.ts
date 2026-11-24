@@ -96,7 +96,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Ave del sotobosque valdiviano',
         anual: 60000,
         mensual: 5000,
-        beneficios: [],
+        beneficios: ['Sticker del valle'],
       },
       {
         id: 'alerce',
@@ -104,7 +104,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Árbol milenario del santuario',
         anual: 120000,
         mensual: 10000,
-        beneficios: [],
+        beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
       },
       {
         id: 'trinidad',
@@ -112,7 +112,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Cerro de granito de La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: [],
+        beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
       },
       {
         id: 'condor',
@@ -120,7 +120,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Plan mecenas, para personas y empresas',
         anual: 300000,
         mensual: 25000,
-        beneficios: [],
+        beneficios: ['Sticker del valle', 'Guía de campo ilustrada'],
         mecenas: true,
       },
     ],
