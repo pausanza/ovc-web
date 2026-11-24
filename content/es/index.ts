@@ -73,7 +73,7 @@ export const contenido: Contenido = {
     fotoElValle: 'Paredes de granito del valle entre el bosque',
     fotoComoVisitar: 'Visitantes registrándose en el inicio del sendero',
     fotoHistoria: 'Vecinos del valle marchando sobre el puente de Cochamó con lienzos por la protección del territorio',
-    fotoComoAyudar: 'Integrantes de la corporación en una jornada de trabajo en el valle',
+    fotoComoAyudar: 'Cumbres de granito bajo nubes de tormenta, con una gran laja de roca en primer plano y bosque de alerces',
     fotoReservar: 'Vista aérea de los campings de La Junta junto al recodo del río',
     lineaDeTiempo: 'Cómo llegamos hasta aquí',
     sobreElSector: 'Sobre el sector',

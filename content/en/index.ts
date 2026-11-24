@@ -82,7 +82,7 @@ export const contenido: Contenido = {
     fotoElValle: 'The valley’s granite walls rising above the forest',
     fotoComoVisitar: 'Visitors registering at the start of the trail',
     fotoHistoria: 'Valley residents marching across the Cochamó bridge with banners calling for protection',
-    fotoComoAyudar: 'Members of the organisation during a work day in the valley',
+    fotoComoAyudar: 'Granite peaks under storm clouds, with a large slab of rock in the foreground and alerce forest',
     fotoReservar: 'Aerial view of the La Junta campsites beside the bend in the river',
     lineaDeTiempo: 'How we got here',
     sobreElSector: 'About this sector',

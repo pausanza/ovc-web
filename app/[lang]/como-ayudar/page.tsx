@@ -47,9 +47,10 @@ export default async function PaginaComoAyudar({ params }: PageProps<'/[lang]/co
         eyebrow={comoAyudarPagina.eyebrow}
         titulo={comoAyudarPagina.titulo}
         intro={[comoAyudarPagina.bajada, comoAyudarPagina.intro]}
-        foto={imagenes.equipo}
+        foto={imagenes.granitoParedes}
         alt={textos.fotoComoAyudar}
-        fotoPosicion="center top"
+        fotoPosicion="50% 40%"
+        alta
       />
 
       {/* Socios primero, con los planes a la vista: es la acción principal.
