@@ -96,12 +96,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Ave del sotobosque valdiviano',
         anual: 60000,
         mensual: 5000,
-        beneficios: [
-          'Sticker y parche',
-          'Carnet digital y Muro de Socios',
-          'Boletín e informe de impacto',
-          'Invitación a jornadas',
-        ],
+        beneficios: [],
       },
       {
         id: 'alerce',
@@ -109,7 +104,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Árbol milenario del santuario',
         anual: 120000,
         mensual: 10000,
-        beneficios: ['Todo lo de Chucao', 'Guía de campo ilustrada'],
+        beneficios: [],
       },
       {
         id: 'trinidad',
@@ -117,7 +112,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Cerro de granito de La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: ['Todo lo de Alerce', 'Polera del valle', 'Mención en el informe anual'],
+        beneficios: [],
       },
       {
         id: 'condor',
@@ -125,10 +120,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Plan mecenas, para personas y empresas',
         anual: 300000,
         mensual: 25000,
-        beneficios: [
-          'Todo lo de Trinidad, con polerón en vez de polera',
-          'Logo de empresas en la web y los materiales',
-        ],
+        beneficios: [],
         mecenas: true,
       },
     ],

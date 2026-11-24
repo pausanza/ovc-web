@@ -95,12 +95,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Bird of the Valdivian understorey',
         anual: 60000,
         mensual: 5000,
-        beneficios: [
-          'Sticker and patch',
-          'Digital card and Members Wall',
-          'Newsletter and impact report',
-          'Invitation to work days',
-        ],
+        beneficios: [],
       },
       {
         id: 'alerce',
@@ -108,7 +103,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Thousand-year-old tree of the sanctuary',
         anual: 120000,
         mensual: 10000,
-        beneficios: ['Everything in Chucao', 'Illustrated field guide'],
+        beneficios: [],
         destacado: true,
       },
       {
@@ -117,7 +112,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Granite peak above La Junta',
         anual: 180000,
         mensual: 15000,
-        beneficios: ['Everything in Alerce', 'Valley t-shirt', 'Mention in the annual report'],
+        beneficios: [],
       },
       {
         id: 'condor',
@@ -125,10 +120,7 @@ export const sociosPagina: Encabezado & {
         subtitulo: 'Patron plan, for individuals and companies',
         anual: 300000,
         mensual: 25000,
-        beneficios: [
-          'Everything in Trinidad, with a sweatshirt instead of a t-shirt',
-          'Company logo on the website and materials',
-        ],
+        beneficios: [],
         mecenas: true,
       },
     ],

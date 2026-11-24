@@ -96,14 +96,16 @@ export function PlanesSocio({ lang, destino, id }: { lang: Lang; destino: string
                       : `${moneda.format(plan.anual)} ${planes.alAnio}`}
                   </p>
 
-                  <ul className="plan__beneficios">
-                    {plan.beneficios.map((beneficio) => (
-                      <li key={beneficio}>
-                        <Icon name="check" />
-                        {beneficio}
-                      </li>
-                    ))}
-                  </ul>
+                  {plan.beneficios.length > 0 && (
+                    <ul className="plan__beneficios">
+                      {plan.beneficios.map((beneficio) => (
+                        <li key={beneficio}>
+                          <Icon name="check" />
+                          {beneficio}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
 
                   <a
                     className="btn btn--oro btn--recto plan__cta"
