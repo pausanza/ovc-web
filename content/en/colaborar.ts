@@ -87,7 +87,7 @@ export const sociosPagina: Encabezado & {
     alAnio: 'a year',
     elegir: 'Choose',
     respaldo:
-      'Card payments are handled by Payku, the same gateway the organisation has used since 2020. Choosing a plan opens its page, with the amount and the dates in plain sight before you type anything.',
+      'Card payments are handled by Payku, the same platform the organisation has used since 2020. Choosing a plan opens its page, with the amount and the dates in plain sight before you type anything.',
     lista: [
       {
         id: 'chucao',

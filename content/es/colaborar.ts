@@ -88,7 +88,7 @@ export const sociosPagina: Encabezado & {
     alAnio: 'al año',
     elegir: 'Elegir',
     respaldo:
-      'El cobro con tarjeta lo procesa Payku, la misma pasarela que usa la corporación desde 2020. Al elegir un plan se abre su página, con el monto y las fechas a la vista antes de escribir nada.',
+      'El cobro con tarjeta lo procesa Payku, la misma plataforma que usa la corporación desde 2020. Al elegir un plan se abre su página, con el monto y las fechas a la vista antes de escribir nada.',
     lista: [
       {
         id: 'chucao',
