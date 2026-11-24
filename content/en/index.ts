@@ -757,7 +757,7 @@ export const contenido: Contenido = {
     {
       icono: 'camino',
       label: 'Río Piedras suspension bridge',
-      texto: 'A new crossing over the Piedras river on the main trail, thanks to Freya Conservation.',
+      texto: 'A new crossing over the Piedras river on the main trail, thanks to Freyja Foundation.',
       href: `${PORTADA}/obras/puente-rio-piedras`,
       imagen: 'logroPuente',
       alt: 'Suspension bridge over the Piedras river, surrounded by native forest',

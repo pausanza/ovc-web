@@ -1016,7 +1016,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     },
     intro: [
       'Corporación Valle Cochamó built a suspension bridge over the Piedras river, right on the valley’s main trail.',
-      'The project was made possible by funds donated by Freya Conservation.',
+      'The project was made possible by funds donated by Freyja Foundation.',
     ],
     bloques: [
       {

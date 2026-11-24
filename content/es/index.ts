@@ -748,7 +748,7 @@ export const contenido: Contenido = {
     {
       icono: 'camino',
       label: 'Puente colgante río Piedras',
-      texto: 'Un nuevo cruce sobre el río Piedras, en el sendero principal, gracias a Freya Conservation.',
+      texto: 'Un nuevo cruce sobre el río Piedras, en el sendero principal, gracias a Freyja Foundation.',
       href: `${PORTADA}/obras/puente-rio-piedras`,
       imagen: 'logroPuente',
       alt: 'Puente colgante sobre el río Piedras, rodeado de bosque nativo',

@@ -1035,7 +1035,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
     },
     intro: [
       'La Corporación Valle Cochamó construyó un puente colgante sobre el río Piedras, en pleno sendero principal del valle.',
-      'El proyecto fue posible gracias a los fondos donados por Freya Conservation.',
+      'El proyecto fue posible gracias a los fondos donados por Freyja Foundation.',
     ],
     bloques: [
       {
