@@ -64,11 +64,11 @@ export function Boletin({ lang }: { lang: Lang }) {
 
           <div className="suscribete__foto">
             <Image
-              src={imagenes.valleBanner.src}
+              src={imagenes.granitoParedes.src}
               alt={boletin.alt}
-              width={imagenes.valleBanner.width}
-              height={imagenes.valleBanner.height}
-              sizes="(max-width: 860px) 92vw, 480px"
+              width={imagenes.granitoParedes.width}
+              height={imagenes.granitoParedes.height}
+              sizes="(max-width: 860px) 92vw, 720px"
             />
           </div>
         </div>

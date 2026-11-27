@@ -975,7 +975,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
   {
     slug: 'educacion-ambiental',
     eyebrow: 'What we have achieved',
-    titulo: 'Getting to know the natural wealth of my district',
+    titulo: 'Getting to know the natural and cultural wealth of my district',
     bajada: 'Environmental education with secondary school students from the Cochamó district',
     foto: {
       imagen: 'logroEducacion',

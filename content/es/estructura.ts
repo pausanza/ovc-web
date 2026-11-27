@@ -92,7 +92,7 @@ export const comoVisitarPagina = {
   titulo: 'Todo lo que necesitas antes de venir',
   bajada: 'Cómo llegar, cuánto cuesta, cómo se reserva y qué tienes que saber para entrar y salir sin problemas.',
   intro: [
-    'El Valle de Cochamó no es un parque: son tierras privadas y fiscales cuyos dueños abrieron el acceso de forma voluntaria, y la visita se ordena entre todos.',
+    'El Valle Cochamó no es un parque: son tierras privadas y fiscales cuyos dueños abrieron el acceso de forma voluntaria, y la visita se ordena entre todos.',
     'Desde 2016, para acampar en el sector La Junta hay que reservar con anticipación. Para el resto de las actividades, como el senderismo por el día, no necesitas reserva: solo respetar los horarios y las normas del valle.',
   ],
 }
@@ -137,7 +137,7 @@ export const comoLlegar = {
       titulo: 'Antes de iniciar tu trayecto',
       puntos: [
         'Existen varias líneas de buses que salen desde el terminal de Puerto Montt, pasan por Puerto Varas y llegan al pueblo de Cochamó. Algunas entran al valle y te dejan a metros del Centro de Visitantes. Infórmate de los horarios con la empresa, considerando que el último ingreso a los campings es a las 15:00 h (temporada alta).',
-        'Asegúrate de que tu reserva esté confirmada y llévala descargada en tu celular o impresa: en el Valle de Cochamó la señal es escasa.',
+        'Asegúrate de que tu reserva esté confirmada y llévala descargada en tu celular o impresa: en el Valle Cochamó la señal es escasa.',
         'Deberás mostrarla en el Centro de Visitantes. Sin ella no podrás ingresar.',
         'Lleva botiquín, linterna frontal y ropa adecuada para la actividad.',
         'Coméntale a tu familia tu itinerario. En el lugar no hay señal ni suministro eléctrico, así que la desconexión será parte del viaje.',
@@ -272,10 +272,10 @@ export const horariosYContacto = {
 }
 
 export const elVallePagina = {
-  eyebrow: 'El Valle de Cochamó',
+  eyebrow: 'El Valle Cochamó',
   titulo: 'Un lugar protegido por su gente',
   bajada:
-    'En el corazón de la Patagonia norte de Chile, el Valle de Cochamó alberga un extraordinario paisaje de bosques templados lluviosos, ríos de aguas cristalinas e imponentes paredes de granito. Un territorio de gran riqueza natural y cultural, donde la naturaleza, las comunidades y las tradiciones conviven desde hace generaciones.',
+    'En el corazón de la Patagonia norte de Chile, el Valle Cochamó alberga un extraordinario paisaje de bosques templados lluviosos, ríos de aguas cristalinas e imponentes paredes de granito. Un territorio de gran riqueza natural y cultural, donde la naturaleza, las comunidades y las tradiciones conviven desde hace generaciones.',
   cierre: 'Un lugar para descubrir, valorar y conservar.',
   cta1: { label: 'Conocer más', href: `${PORTADA}/el-valle#mapa` },
   cta2: { label: 'Cómo visitar', href: `${PORTADA}/como-visitar` },
@@ -382,7 +382,7 @@ export const floraFauna: Encabezado & { cierre: string } = {
   eyebrow: 'Flora y fauna',
   titulo: 'Un valle lleno de vida',
   bajada:
-    'Entre bosques milenarios, ríos y montañas, el Valle de Cochamó alberga una extraordinaria diversidad de especies. Desde imponentes alerces y coihues hasta pequeños habitantes como la ranita de Darwin y el monito del monte, cada uno cumple un rol fundamental en el equilibrio de este ecosistema.',
+    'Entre bosques milenarios, ríos y montañas, el Valle Cochamó alberga una extraordinaria diversidad de especies. Desde imponentes alerces y coihues hasta pequeños habitantes como la ranita de Darwin y el monito del monte, cada uno cumple un rol fundamental en el equilibrio de este ecosistema.',
   cierre: 'Conoce a quienes habitan este territorio.',
 }
 
@@ -392,7 +392,7 @@ export const gruposEspecies: GrupoEspecies[] = [
     titulo: 'Guardianes del bosque',
     subtitulo: 'Alerce · Coihue · Mañío',
     intro:
-      'Los bosques templados lluviosos del Valle de Cochamó albergan árboles nativos que dan vida, estructura y refugio a un ecosistema extraordinario.',
+      'Los bosques templados lluviosos del Valle Cochamó albergan árboles nativos que dan vida, estructura y refugio a un ecosistema extraordinario.',
     imagen: 'bosqueDosel',
     alt: 'Copas del bosque siempreverde vistas desde el suelo del valle',
     fichas: [
@@ -495,7 +495,7 @@ export const queHacer: Encabezado & { cierre: string; cta: Enlace } = {
   eyebrow: 'Actividades',
   titulo: 'Un valle para explorar a tu ritmo',
   bajada:
-    'Entre bosques milenarios, ríos cristalinos e imponentes paredes de granito, el Valle de Cochamó invita a descubrir la naturaleza de una manera única.',
+    'Entre bosques milenarios, ríos cristalinos e imponentes paredes de granito, el Valle Cochamó invita a descubrir la naturaleza de una manera única.',
   cierre:
     'Senderismo, escalada, cabalgatas y contemplación de la naturaleza son algunas de las experiencias que permiten conectar con este extraordinario territorio, siempre desde el respeto y el cuidado de su entorno.',
   cta: { label: 'Prepara tu viaje', href: `${PORTADA}/como-visitar` },
@@ -544,7 +544,7 @@ export const actividades: Actividad[] = [
       {
         titulo: 'Un paraíso de granito en plena Patagonia',
         texto:
-          'El Valle de Cochamó es uno de los destinos de escalada en roca más reconocidos de Sudamérica. Sus imponentes paredes de granito, rodeadas de bosques nativos y paisajes de montaña, ofrecen una experiencia única para escaladores de todo el mundo. Con rutas de varios largos y grandes paredes que pueden superar los cientos de metros de altura, Cochamó invita a descubrir la montaña desde una perspectiva diferente.',
+          'El Valle Cochamó es uno de los destinos de escalada en roca más reconocidos de Sudamérica. Sus imponentes paredes de granito, rodeadas de bosques nativos y paisajes de montaña, ofrecen una experiencia única para escaladores de todo el mundo. Con rutas de varios largos y grandes paredes que pueden superar los cientos de metros de altura, Cochamó invita a descubrir la montaña desde una perspectiva diferente.',
       },
       {
         titulo: 'Una aventura que exige preparación',
@@ -565,7 +565,7 @@ export const actividades: Actividad[] = [
       {
         titulo: 'Una tradición que mantiene vivo el valle',
         texto:
-          'Recorrer el Valle de Cochamó a caballo es una forma de descubrir sus paisajes y conectar con una tradición profundamente arraigada en su historia. Durante generaciones, los arrieros locales han recorrido estos senderos, transportando personas, animales y provisiones a través de bosques, ríos y montañas. Su conocimiento del territorio y su oficio forman parte esencial de la identidad cultural de Cochamó.',
+          'Recorrer el Valle Cochamó a caballo es una forma de descubrir sus paisajes y conectar con una tradición profundamente arraigada en su historia. Durante generaciones, los arrieros locales han recorrido estos senderos, transportando personas, animales y provisiones a través de bosques, ríos y montañas. Su conocimiento del territorio y su oficio forman parte esencial de la identidad cultural de Cochamó.',
       },
       {
         texto:
@@ -590,7 +590,7 @@ export const actividades: Actividad[] = [
       {
         titulo: 'Descubre la vida que habita el valle',
         texto:
-          'El Valle de Cochamó es un refugio de biodiversidad, donde bosques milenarios, ríos cristalinos y montañas albergan una extraordinaria variedad de especies nativas. Desde el canto de las aves hasta los pequeños habitantes del bosque, cada rincón invita a detenerse, observar y descubrir la riqueza natural de este territorio.',
+          'El Valle Cochamó es un refugio de biodiversidad, donde bosques milenarios, ríos cristalinos y montañas albergan una extraordinaria variedad de especies nativas. Desde el canto de las aves hasta los pequeños habitantes del bosque, cada rincón invita a detenerse, observar y descubrir la riqueza natural de este territorio.',
       },
       {
         texto:
@@ -994,7 +994,7 @@ export const obras: (PaginaLarga & { slug: string })[] = [
   {
     slug: 'educacion-ambiental',
     eyebrow: 'Lo que hemos logrado',
-    titulo: 'Conociendo la riqueza natural de mi comuna',
+    titulo: 'Conociendo la riqueza natural y cultural de mi comuna',
     bajada: 'Educación ambiental con estudiantes de enseñanza media de la comuna de Cochamó',
     foto: {
       imagen: 'logroEducacion',

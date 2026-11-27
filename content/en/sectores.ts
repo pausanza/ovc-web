@@ -133,7 +133,7 @@ export const sectoresDetalle: SectorDetalle[] = [
         tipo: 'Campsite',
         descripcion:
           'Large pitches beside the Cochamó River, with views of the climbing peaks. Close to the high-country trails and the La Luna and La Cantina walls.',
-        servicios: ['Large pitches', 'Water, showers and washbasins', 'Toilets', 'One covered shelter with a fire pit', 'Home-baked bread for sale'],
+        servicios: ['Large pitches', 'Water, showers and washbasins', 'Toilets', 'Three covered shelters with fire pits', 'Home-baked bread and sweets for sale'],
         contactos: [{ tipo: 'web', valor: 'vistahermosacochamo.cl', href: 'https://vistahermosacochamo.cl/' }],
         reserva: { label: 'Book at Vista Hermosa', href: 'https://vistahermosacochamo.cl/reservar' },
         lat: -41.412606,

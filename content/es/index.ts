@@ -243,7 +243,7 @@ export const contenido: Contenido = {
     },
     {
       anio: '2023',
-      titulo: 'El Valle de Cochamó es Santuario de la Naturaleza',
+      titulo: 'El Valle Cochamó es Santuario de la Naturaleza',
       texto:
         'Ese año se firmó el decreto que deja protegidas 11.432,8 hectáreas del valle. La figura no expropia ni cierra el valle —la vida y las actividades de siempre continúan—, pero ninguna obra ni actividad que altere el estado natural del lugar puede hacerse sin autorización previa, y la caza queda prohibida. La administración quedó en manos de la organización del valle.',
       destacado: true,
@@ -374,7 +374,7 @@ export const contenido: Contenido = {
       eyebrow: 'Dónde queda',
       titulo: 'Un rincón escondido de la Patagonia norte',
       bajada:
-        'Ubicado en la Región de Los Lagos, en plena cordillera de los Andes, el Valle de Cochamó destaca por sus imponentes paredes de granito, bosques templados lluviosos y ríos de aguas cristalinas. Un lugar extraordinario al que solo se puede acceder a pie o a caballo.',
+        'Ubicado en la Región de Los Lagos, en plena cordillera de los Andes, el Valle Cochamó destaca por sus imponentes paredes de granito, bosques templados lluviosos y ríos de aguas cristalinas. Un lugar extraordinario al que solo se puede acceder a pie o a caballo.',
     },
     centroInicial: { lat: -41.4495, lon: -72.115, zoom: 10 },
   },
@@ -588,7 +588,7 @@ export const contenido: Contenido = {
     eyebrow: 'Conservación',
     titulo: 'El santuario',
     bajada:
-      'El Valle de Cochamó es un Santuario de la Naturaleza desde 2023, un reconocimiento que protege más de 11.400 hectáreas de bosques milenarios, ríos, montañas y biodiversidad.',
+      'El Valle Cochamó es un Santuario de la Naturaleza desde 2023, un reconocimiento que protege más de 11.400 hectáreas de bosques milenarios, ríos, montañas y biodiversidad.',
     parrafo:
       'Este importante logro es fruto del trabajo conjunto de comunidades locales y organizaciones comprometidas con su conservación, buscando resguardar no solo su patrimonio natural, sino también las tradiciones y formas de vida que le dan identidad. Porque proteger Cochamó es también preservar su historia y su futuro.',
     hectareas: '11.432,8',
@@ -760,7 +760,7 @@ export const contenido: Contenido = {
     texto:
       'Suscríbete para recibir noticias del valle, próximos voluntariados, actividades, programas y proyectos de conservación. Así podrás seguir de cerca el impacto de esta comunidad y encontrar nuevas maneras de involucrarte en el cuidado de Cochamó.',
     ejemploCorreo: 'ejemplo@correo.com',
-    alt: 'El valle visto desde lo alto, entre paredes de granito',
+    alt: 'Cumbres de granito bajo nubes de tormenta, con una gran laja de roca en primer plano y bosque de alerces',
   },
 
   aliadosEncabezado: { eyebrow: 'Colaboradores', titulo: 'Quienes caminan con nosotros' },

@@ -769,7 +769,7 @@ export const contenido: Contenido = {
     texto:
       'Subscribe for news from the valley, upcoming volunteering, activities, programmes and conservation projects. That way you can follow this community’s impact closely and find new ways to get involved in looking after Cochamó.',
     ejemploCorreo: 'example@email.com',
-    alt: 'The valley seen from above, between granite walls',
+    alt: 'Granite peaks under storm clouds, with a large slab of rock in the foreground and alerce forest',
   },
 
   aliadosEncabezado: { eyebrow: 'Partners', titulo: 'Those walking alongside us' },

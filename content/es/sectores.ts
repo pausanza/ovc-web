@@ -145,7 +145,7 @@ export const sectoresDetalle: SectorDetalle[] = [
         tipo: 'Camping',
         descripcion:
           'Amplios sitios junto al río Cochamó, con vista a los cerros de escalada. Cerca de los senderos de altura y de las paredes La Luna y La Cantina.',
-        servicios: ['Sitios amplios', 'Agua, duchas y lavamanos', 'Baños', 'Un quincho techado con fogón', 'Venta de pan amasado'],
+        servicios: ['Sitios amplios', 'Agua, duchas y lavamanos', 'Baños', 'Tres quinchos techados con fogón', 'Venta de pan amasado y cosas dulces'],
         contactos: [{ tipo: 'web', valor: 'vistahermosacochamo.cl', href: 'https://vistahermosacochamo.cl/' }],
         reserva: { label: 'Reservar en Vista Hermosa', href: 'https://vistahermosacochamo.cl/reservar' },
         lat: -41.412606,
